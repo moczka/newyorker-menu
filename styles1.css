@@ -85,10 +85,9 @@ ul, ol{
   width: 100%;
   height: 150px;
   background-color:  #c1390b;
-  border-bottom: 30px solid #902e15;
+  border-bottom: 30px solid #0B409C;
   border-top: 15px solid #b4a389;
   z-index: -1
-
 }
 .lady-liberty{
   display: block;
@@ -110,7 +109,7 @@ ul, ol{
 
 .main-section{
   height: 1450px;
-  background: linear-gradient(#ffcc00, #ffe680);
+  background: linear-gradient(#35a9e3, #D2ECF9);
   position: relative;
 }
 
@@ -208,6 +207,47 @@ ul, ol{
 .clearfix { display: block; }
 /* close commented backslash hack */
 
+
+.cover-background{
+  height: 1635px;
+  background: url(assets/raster/newyork_cover1.png) no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
+.cover-title{
+  font-family: 'Kumar One', cursive;
+  position: relative;
+  top: 350px;
+  text-align: center;
+}
+
+.cover-title h1{
+  font-size: 100px;
+  color: rgba(51,51,51, 0.85)
+}
+.cover-title p{
+  position: relative;
+  font-size: 40px;
+  top: 560px;
+  color: rgba(255, 255, 255, 0.84);
+}
+
+.cover-filter{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(244, 209, 66, 0.2);
+}
+
+.american-flag{
+
+  width: 90%;
+  height: auto;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+}
 
 .footer{
   position: fixed;
