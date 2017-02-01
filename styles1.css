@@ -39,6 +39,11 @@ ul, ol{
   padding: 0;
 }
 
+.hidden{
+  display: none;
+  visibility: none;
+}
+
 .blue{
   background-color: #2c74e8;
   color: #fff;
@@ -84,9 +89,9 @@ ul, ol{
   position: relative;
   width: 100%;
   height: 150px;
-  background-color:  #c1390b;
-  border-bottom: 30px solid #0B409C;
-  border-top: 15px solid #b4a389;
+  background-color:  #007AB5;
+  border-bottom: 30px solid #004262;
+  border-top: 15px solid #c1390b;
   z-index: -1
 }
 .lady-liberty{
@@ -109,7 +114,7 @@ ul, ol{
 
 .main-section{
   height: 1450px;
-  background: linear-gradient(#35a9e3, #D2ECF9);
+  background: linear-gradient(#bbd3dd, #eef4f7);
   position: relative;
 }
 
