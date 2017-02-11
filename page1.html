@@ -4,7 +4,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Kumar+One" rel="stylesheet">
-  <link rel="stylesheet" href="styles1.css" type="text/css" >
+  <link rel="stylesheet" href="styles1.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="main.js"></script>
   <title>New Yorker Menu</title>
 </head>
 <body>
@@ -18,7 +20,6 @@
     <div class="container">
 
       <div class="row clearfix">
-
         <div class="subway-frame clearfix">
 
           <div class="col-md-2">
@@ -31,7 +32,7 @@
                 <span class="station-letter purple">7</span>
                 <span class="station-letter green">S</span>
               </header>
-              <p>All omelets are served with house toast and hand cut home fries or tossed salad. Substitute salad for fruit salad $3. Choose any bread from options below.</p>
+              <p>All omelets are served with house toast and hand cut home fries or tossed salad. Substitute for fruit ($3.00) or egg whites ($2.00). Choose any bread from options below.</p>
               <ul class="meal-list">
                 <li>
                   <h3>Queens</h3>
@@ -48,8 +49,11 @@
               <img src="assets/raster/omelette_main.png"  />
               <img src="assets/raster/omelette_two.png" />
 
-              <h3>Bread Options:</h3>
-              <p>Whole wheat, Scali, White, Rye, Glunten-free $2.00, Multi-grain.</p>
+              <div class="menu-note">
+                <h3>Bread Options:</h3>
+                <p>Whole wheat, Scali, White, Rye, Glunten-free $2.00, Multi-grain.</p>
+              </div>
+
             </div>
 
           </div>
@@ -79,7 +83,7 @@
                 <li>
                   <h3>Build Your Own Omelette</h3>
                   <span>$8.99</span>
-                  <p>Two eggs, one meet, two vegetables and one cheese  come with house toast and home fries or tossed salad. Add extra meet for $2, extra cheese $1.50, Avocado $1.99 vegetable $1, extra egg $0.99</p>
+                  <p>Three eggs, one meet, two vegetables and one cheese  come with house toast and home fries or tossed salad. Add extra meet for $2, extra cheese $1.50, Avocado $1.99 vegetable $1, extra egg $0.99</p>
                     <ul class="sub-list">
                       <li>
                         <h3>Choose Veg</h3>
@@ -128,29 +132,29 @@
 
                 <ul class="meal-list">
                   <li>
-                    <h3>Central Park</h3>
-                    <span>$12.99</span>
-                    <p>Our english muffin  toast topped with smoked salmon, two poached eggs,lemon zest  hollandaise & scallions served with home fries or tossed salad</p>
+                    <h3>4th Avenue</h3>
+                    <span>$11.99</span>
+                    <p>Our english muffin toast topped with smoked salmon, two poached eggs, lemon zest hollandaise & scallions served with home fries or tossed salad.</p>
                   </li>
                   <li>
                     <h3>The Broadway</h3>
-                    <span>$9.99</span>
+                    <span>$8.99</span>
                     <p>With Canadian bacon and  house made lemon zest hollandaise sauce two poached eggs served with home fries or tossed salad</p>
                   </li>
                   <li>
                     <h3>Times Square</h3>
-                    <span>$10.99</span>
+                    <span>$9.99</span>
                     <p>Shredded slow roasted pork  with BBQ, topped  with house made lemon zest hollandaise sauce two poached eggs. Served on our english muffin served with home fries or tossed salad</p>
                   </li>
                   <li>
                     <h3>Rockefeller Benny</h3>
-                    <span>$11.99</span>
+                    <span>$10.99</span>
                     <p>House made corned beef hash  homemade lemon zest  hollandaise sauce two poached eggs on corned bread served with home fries  or tossed salad</p>
                   </li>
                   <li>
                     <h3>The Bronx</h3>
-                    <span>$10.99</span>
-                    <p>baby  spinach and cut thick sliced grilled   fresh tomatoes  topped with house made lemon zest hollandaise sauce two poached eggs, served with home fries or tossed salad </p>
+                    <span>$9.99</span>
+                    <p>Baby spinach and cut thick sliced grilled   fresh tomatoes  topped with house made lemon zest hollandaise sauce two poached eggs, served with home fries or tossed salad </p>
                   </li>
                 </ul>
                 <img src="assets/raster/beneits.png" />
@@ -168,34 +172,58 @@
                 <span class="station-letter green">S</span>
                 </header>
                 <p>All pancakes are served with vermont maple syrup and butter.</p>
-
                 <ul class="meal-list">
                   <li>
-                    <img src="assets/raster/pancake_main.png"  />
-                    <h3>Butter Milk</h3>
-                    <span>$6.99 (Full Stack)</span>
-                    <p>A delicious full stack of butter milk pancakes. You can choose a stack of two for $5.99 or a single for $3.99</p>
+
+                    <div class="row clearfix">
+                      <div class="col-md-2 clearfix">
+                        <img src="assets/raster/pancake_main.png" class="fl"/>
+                      </div>
+
+                      <div class="col-md-2">
+                        <div class="clearfix">
+                          <h3>Butter Milk</h3>
+                          <span>$6.99 (Full Stack)</span>
+                        </div>
+                        <p>A delicious full stack of butter milk pancakes. You can choose a stack of two for $5.99 or a single for $3.99</p>
+
+                        <div class="clearfix">
+                          <h3>Caribbean</h3>
+                          <span>$10.99</span>
+                        </div>
+                        <p>Bananas, roasted coconut and strawberry's topped with melted mascarpone cheese, and house made caramel sauce.</p>
+                      </div>
+                    </div>
+
                   </li>
+
+
                   <li>
-                    <h3>Sweet Potato</h3>
-                    <span>$8.99</span>
+                    <div class="clearfix">
+                      <h3>Sweet Potato</h3>
+                      <span>(Full Stack) $8.99</span>
+                    </div>
                     <p>A choice of two for $6.99, and one for $3.99</p>
                   </li>
+
+
                   <li>
-                    <h3>Tropical</h3>
-                    <span>$11.99</span>
-                    <p>bananas, roasted coconut and strawberry's topped with melted mascarpone cheese, and house made caramel sauce.</p>
+                    <div class="clearfix">
+                      <h3>Thunder Storm</h3>
+                      <span>$11.99</span>
+                    </div>
+                    <p>Pecan, roasted pears,melted mascarpone cheese, topped with homemade caramel sauce.</p>
                   </li>
+
                   <li>
-                    <h3>Thunder Storm</h3>
-                    <span>$11.99</span>
-                    <p>Pecan, roasted pears,melted mascarpone  cheese ,topped with homemade caramel sauce.</p>
+                    <div class="clearfix">
+                      <h3>New Yorker Fried</h3>
+                      <span>Short(3) $5.95 - Full (4) $7.95</span>
+                    </div>
+                    <p>Crispy shredded potato pancakes with a bit of onion and spice. Served with  sour cream and applesauce.</p>
                   </li>
+
                 </ul>
-
-
-
-
               </div>
 
             </div>
