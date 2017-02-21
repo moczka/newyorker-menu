@@ -1,0 +1,24 @@
+@media print{
+
+    /* sets main container to fit the entire tabloid size*/
+  .main-section{
+    height: 1480px;
+  }
+  /*move up skyline to make everything fit */
+  .footer-skyline {
+    position: absolute;
+    bottom: 0px;
+  }
+  .footer-skyline > img{
+    max-width: 100%;
+  }
+  /*displays the warning message*/
+  .footer-warning{
+    display: none;
+  }
+  /*hide nav bar */
+  .page-nav{
+    display: none;
+  }
+
+}

@@ -1,0 +1,29 @@
+<script id="mealTemplate" type="text/template">
+
+      <li>
+          <div class="meal">
+            <header class="meal-header clearfix">
+              <h3 class="meal-title <%= meal.special? 'meal-special' : '' %>"><%= meal.title %></h3>
+              <span class="meal-price"><%= meal.price %></span>
+            </header>
+            <div class="meal-header hidden">
+              <input type="text" class="meal-title edit" value="<%= meal.title %>">
+              <input type="text" class="meal-price edit" value="<%= meal.price %>">
+            </div>
+            <% if(meal.description){ %>
+                <p><%= meal.description %></p>
+            <% } %>
+            <% if(meal.custom){ %>
+              <ul class="meal-custom clearfix">
+                <% _.each(meal.options, function(option){ %>
+                    <li style="width: <%= (100/meal.options.length)+'%'%>">
+                        <h3><%= option.title %></h3>
+                        <p><%= option.description %></p>
+                    </li>
+                <% }); %>
+              </ul>
+            <% } %>
+          </div>
+      </li>
+      
+</script>

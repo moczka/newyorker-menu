@@ -1,0 +1,337 @@
+{
+	"rows": [
+		{
+			"cols": [
+				{
+					"categories": [
+						{
+							"category": {
+								"title": "Sides &amp; Appetizers",
+								"description": "",
+								"stations": [
+									{"letter": "C",
+										"color": "blue"
+									},
+									{"letter": "S",
+										"color": "grey"
+									},
+									{"letter": "7",
+										"color": "purple"
+									}
+								],
+								"meals": [
+									{
+										"title": "Mozzarella Sticks",
+										"price": "$6.99",
+										"description": "Served with marinara sauce."
+									},
+									{
+										"title": "Egg Plant Fries",
+										"price": "$7.99",
+										"description": "Served with marinara sauce."
+									},
+									{
+										"title": "Buffalo Chicken Wings",
+										"price": "$8.99"
+									},
+									{
+										"title": "Chicken Tenders w/ Fries",
+										"price": "$8.99"
+									},
+									{
+										"title": "Fried Polenta Parmesan",
+										"price": "$6.99",
+										"description": "Served with garlic aioli."
+									},
+									{
+										"title": "Chicken Quesadilla",
+										"price": "$8.99",
+										"description": "Served with sour cream, salsa and guacuamole."
+									},
+									{
+										"title": "Hand Cut French fries",
+										"price": "$3.99"
+									},
+									{
+										"title": "Sweet Potato Fries",
+										"price": "$4.99"
+									},
+									{
+										"title": "Onion Rings",
+										"price": "$4.99"
+									},
+									{
+										"title": "House Made Chips",
+										"price": "$2.49"
+									}
+								],
+								"images": [],
+								"note": {},
+								"position": {
+									"row": 1,
+									"col": 1,
+									"full": false
+								}
+							}
+						},
+						{
+							"category": {
+								"title": "Sea Food",
+								"description": "",
+								"stations": [
+									{"letter": "4",
+										"color": "green"
+									},
+									{"letter": "Q",
+										"color": "yellow"
+									},
+									{"letter": "N",
+										"color": "orange"
+									}
+								],
+								"meals": [
+									{
+										"title": "Fries shrimp with coleslaw and French fries",
+										"price": "$11.99"
+									},
+									{
+										"title": "Fried Fish tips served /w coleslaw and french fries",
+										"price": "$11.99"
+									},
+									{
+										"title": "Sea basket, fried shrimp ,fish tips ,served with coleslaw and fries",
+										"price": "$13.99"
+									},
+									{
+										"title": "Fried calamari w/ Coleslaw",
+										"price": "$8.99"
+									}
+								],
+								"images": [],
+								"note": {},
+								"position": {
+									"row": 2,
+									"col": 1,
+									"full": true
+								},
+								"full": true
+							}
+						}
+					]
+				},
+				{
+					"categories": [
+						{
+							"category": {
+								"title": "Mix and Match",
+								"description": "Choose any cup of soup and half a sandwich from below. All mix and match orders come with house made chips and pickles for $9.99",
+								"stations": [
+									{"letter": "B",
+										"color": "purple"
+									},
+									{"letter": "K",
+										"color": "brown"
+									},
+									{"letter": "S",
+										"color": "green"
+									}
+								],
+								"meals": [
+									{
+										"title": "BLT Sandwich"
+									},
+									{
+										"title": "Melted Tuna"
+									},
+									{
+										"title": "Ham and Swiss"
+									},
+									{
+										"title": "Turkey &amp; Cheddar"
+									},
+									{
+										"title": "Pastrami &amp; Swiss"
+									}
+								],
+								"images": [
+									{
+										"src": "assets/raster/tomato_basil_soup.png",
+										"className": "meal-image-full"
+									}
+								],
+								"note": {},
+								"position": {
+									"row": 1,
+									"col": 2,
+									"full": false
+								}
+							}
+						},
+						{
+							"category": {
+								"title": "Soups of The Day",
+								"description": "Served as a cup or as a bow",
+								"stations": [
+									{"letter": "1",
+										"color": "red"
+									},
+									{"letter": "Q",
+										"color": "yellow"
+									},
+									{"letter": "C",
+										"color": "blue"
+									}
+								],
+								"meals": [
+									{
+										"title": "Tomato Basil",
+										"price": "Cup $3.99 or Bowl $4.95"
+									},
+									{
+										"title": "Chiken Noodle",
+										"price": "Cup $3.99 or Bowl $4.95"
+									},
+									{
+										"title": "Clam Choudar",
+										"price": "Cup $3.99 or Bowl $4.95"
+									},
+									{
+										"title": "Chille Soup",
+										"price": "Cup $4.99 or Bowl $5.95"
+									}
+								],
+								"images": [],
+								"note": {},
+								"position": {
+									"row": 1,
+									"col": 2,
+									"full": false
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"cols": [
+				{
+					"categories": [
+						{
+							"category": {
+								"title": "Drinks",
+								"description": "",
+								"stations": [
+									{"letter": "F",
+										"color": "orange"
+									},
+									{"letter": "N",
+										"color": "yellow"
+									},
+									{"letter": "C",
+										"color": "blue"
+									}
+								],
+								"meals": [
+									{
+										"title": "S.Pellegrino",
+										"price": "$2.99"
+									},
+									{
+										"title": "Coconut Water",
+										"price": "$2.99"
+									},
+									{
+										"title": "Natural Juice",
+										"price": "$2.95(M) - $3.95(L)",
+										"description": "Any of orange, apple, cranberry or tomato juice."
+									},
+									{
+										"title": "Iced Coffe",
+										"price": "$2.49"
+									},
+									{
+										"title": "Hot Chocolate",
+										"price": "$2.49"
+									},
+									{
+										"title": "Hot Tea",
+										"price": "$2.25"
+									},
+									{
+										"title": "Fountain Drinks",
+										"price": "$2.25"
+									},
+									{
+										"title": "Lemonade",
+										"price": "$3.25"
+									},
+									{
+										"title": "Iced Tea",
+										"price": "$2.45"
+									},
+									{
+										"title": "Fresh Brew Coffee",
+										"price": "$2.25"
+									},
+									{
+										"title": "Milk Shake",
+										"price": "$5.99",
+										"description": "Choose two strawberry, banana, peanut butter, nutella, blueberry, pineapple, coconut, vanilla."
+									}
+								],
+								"images": [],
+								"note": {},
+								"position": {
+									"row": 3,
+									"col": 1,
+									"full": false
+								}
+							}
+						}
+					]
+				},
+				{
+					"categories": [
+						{
+							"category": {
+								"title": "Desserts",
+								"description": "",
+								"stations": [
+									{"letter": "D",
+										"color": "blue"
+									},
+									{"letter": "Q",
+										"color": "yellow"
+									},
+									{"letter": "N",
+										"color": "orange"
+									}
+								],
+								"meals": [
+									{
+										"title": "Boston Cream Pie",
+										"price": "$4.99",
+										"description": "Our famous Boston cream pie served with drizzled nutella and strawberry."
+									},
+									{
+										"title": "New Yorker Brownie Sunday",
+										"price": "$4.99",
+										"description": "Served with a scoop of vanilla ice cream, topped with strawberry, blueberries and drizzled nutella."
+									}
+								],
+								"images": [],
+								"note": {},
+								"position": {
+									"row": 3,
+									"col": 2,
+									"full": false
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

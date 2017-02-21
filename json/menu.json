@@ -1,0 +1,16 @@
+{
+  "pages": [
+    {
+      "src": "page1.json"
+    },
+    {
+      "src": "page2.json"
+    },
+    {
+      "src": "page3.json"
+    },
+    {
+      "src": "page4.json"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<script id="categoryTemplate" type="text/template">
+
+              <div class="category">
+
+                <% if(category.title){ %>
+                  <header class="category-header clearfix">
+                  <h2><%= category.title %></h2>
+                    <% _.each(category.stations, function(station){ %>
+                      <span class="station-letter <%= station.color %>"><%= station.letter %></span>
+                    <% }); %>
+                  </header>
+                <% } %>
+
+                <% if(category.description){ %>
+                  <p><%= category.description %></p>
+                <% } %>
+
+                <ul class="category-list clearfix">
+
+                  <% if(category.images.length>0){  %>
+                    <li class="<%= category.images[0].className %>">
+                      <img src="<%= category.images[0].src %>" alt="Menu image">
+                    </li>
+                  <% } %>
+
+                </ul>
+
+              </div>
+
+</script>

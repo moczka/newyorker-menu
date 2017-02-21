@@ -1,0 +1,243 @@
+{
+	"rows": [
+		{
+			"cols": [
+				{
+					"categories": [
+						{
+							"category": {
+								"title": "Omelettes",
+								"description": "All omelettes are made with three farm fresh eggs and served with choice of toast and hand-cut home fries or tossed salad. Replace home fries for fruit salad $2.00. Egg whites are optional for all omelettes $ 2.00\nBread options: Whole Wheat, Scali, Rye, Multi-grain. Gluten-free add $2.00",
+								"stations": [
+									{"letter": "A",
+										"color": "blue"
+									},
+									{"letter": "1",
+										"color": "red"
+									},
+									{"letter": "N",
+										"color": "yellow"
+									}
+								],
+								"meals": [
+									{
+										"title": "Queens",
+										"price": "$11.99",
+										"description": "Slow roasted shredded pulled pork with peppers, onions, house made BBQ sauce and melted cheddar cheese."
+									},
+									{
+										"title": "The Liberty",
+										"price": "$11.99",
+										"description": "Signature sausage, apple wood smoked bacon, diced ham, sautéed peppers and onion with melted American cheese."
+									},
+									{
+										"title": "The Carnegie",
+										"price": "$11.99",
+										"description": "Filled with house made corned beef hash and melted cheddar cheese."
+									},
+									{
+										"title": "Manhattan",
+										"price": "$10.99",
+										"description": "Our House-made chili and melted cheddar cheese, topped with sour cream. Made with  farm fresh eggs, served with home fries or tossed salad"
+									}
+								],
+								"images": [
+									{
+										"src": "assets/raster/omelette_main.png",
+										"className": "meal-image-two"
+									},
+									{
+										"src": "assets/raster/omelette_two.png",
+										"full": false
+									}
+								],
+								"note": {
+									"title": "Bread Options:",
+									"description": "Whole wheat, Scali, White, Rye, Glunten-free $2.00, Multi-grain."
+								},
+								"position": {
+									"row": 1,
+									"col": 1,
+									"full": false
+								}
+							}
+						}
+					]
+				},
+				{
+					"categories": [
+						{
+							"category": {
+								"title": "",
+								"description": "",
+								"meals": [
+									{
+										"title": "Brooklyn",
+										"price": "$10.99",
+										"description": "Pepper, onions, salsa, avocado, pepper jack cheese and a side of sour cream."
+									},
+									{
+										"title": "Central Park",
+										"price": "$10.99",
+										"description": "Broccoli, pepper, tomato, onion, spinach, sparagus, and Swiss cheese."
+									},
+									{
+										"title": "Build Your Own Omelette",
+										"custom": true,
+										"price": "$8.99",
+										"description": "Three eggs, one meet, two vegetables and one cheese come with house toast and home fries or tossed salad. Add extra meet for $2, extra cheese $1.50, Avocado $1.99 vegetable $1, extra egg $0.99",
+										"options": [
+										{
+											"title": "Choose Veg",
+											"description": "Tomato, Mushrooms, Asparagus, Carrots, Broccoli, Spinach, Onions and Peppers"
+										},
+										{
+											"title": "Choose Cheese",
+											"description": "American, Cheddar, Fetta, Swiss, Pepper Jack, Gouda, Goat Cheese, Mozarella."
+										},
+										{
+											"title": "Choose Meat",
+											"description": "Bacon, Ham, Sausage, Corn-beef Hash, Steak, Turkey, Smoked Salmon, Chicken."
+										}
+										]
+									}
+								],
+								"images": [
+									{
+										"src": "assets/raster/omelette_two.png",
+										"className": "meal-image-two"
+									}
+								],
+								"note": {},
+								"position": {
+									"row": 1,
+									"col": 2,
+									"full": false
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"cols": [
+				{
+					"categories": [
+						{
+							"category": {
+								"title": "Benedit",
+								"description": "All New Yorker Benedict’s are made with farm fresh eggs and served with house made home fries or tossed salad. Replace home fries for Fruit Salad $2.00",
+								"stations": [
+									{"letter": "7",
+										"color": "purple"
+									},
+									{"letter": "S",
+										"color": "green"
+									},
+									{"letter": "Q",
+										"color": "orange"
+									}
+								],
+								"meals": [
+									{
+										"title": "4th Avenue",
+										"price": "$11.99",
+										"description": "Two poached farm fresh eggs served over our toasted english muffin with Smoked Salmon, scallions and our lemon zest hollandaise sauce."
+									},
+									{
+										"title": "The Broadway",
+										"price": "$8.99",
+										"description": "Two poached farm fresh eggs served over our toasted english muffin with Canadian bacon and topped with our lemon zest Hollandaise Sauce."
+									},
+									{
+										"title": "Times Square",
+										"price": "$9.99",
+										"description": "Two poached farm fresh eggs topped with shredded slow roasted BBQ pulled pork.  Served over toasted english muffin and drizzled with our lemon zest hollandaise sauce."
+									},
+									{
+										"title": "Rockefeller Benny",
+										"price": "$10.99",
+										"description": "House made corned beef hash  homemade lemon zest  hollandaise sauce two poached eggs on homemade corned bread."
+									},
+									{
+										"title": "The Bronx",
+										"price": "$9.99",
+										"description": "Baby spinach and cut thick sliced grilled fresh tomatoes topped with house made lemon zest hollandaise sauce two poached eggs."
+									}
+								],
+								"images": [
+									{
+										"src": "assets/raster/beneits.png",
+										"className": "meal-image-one"
+									}
+								],
+								"note": {},
+								"position": {
+									"row": 2,
+									"col": 1,
+									"full": false
+								}
+							}
+						}
+					]
+				},
+				{
+					"categories": [
+						{
+							"category": {
+								"title": "Pancakes",
+								"description": "All pancakes are served with vermont maple syrup, whipped cream and butter. Add chocolate chips, banana, blueberry, strawberry, nutella, roasted coconut, ($1.25) each.",
+								"stations": [
+									{"letter": "2",
+										"color": "red"
+									},
+									{"letter": "C",
+										"color": "blue"
+									},
+									{"letter": "N",
+										"color": "yellow"
+									}
+								],
+								"meals": [
+									{
+										"title": "Butter Milk",
+										"price": "$6.99 (Full Stack)",
+										"description": "A delicious full stack of butter milk pancakes. You can choose a stack of two for $5.99 or a single for $3.99"
+									},
+									{
+										"title": "Sweet Potato",
+										"price": "(Full Stack) $8.99",
+										"description": "A choice of two for $6.99, and one for $3.99"
+									},
+									{
+										"title": "Thunder Storm",
+										"price": "$11.99",
+										"description": "Pecan, roasted pears,melted mascarpone cheese, topped with homemade caramel sauce."
+									},
+									{
+										"title": "New Yorker Fried Potato",
+										"price": "Short(3) $5.95 - Full (4) $7.95",
+										"description": "Crispy shredded potato pancakes with a bit of onion and spice. Served with  sour cream and applesauce."
+									}
+								],
+								"images": [
+									{
+										"src": "assets/raster/pancake_main.png",
+										"className": "meal-image-two"
+									}
+								],
+								"note": {},
+								"position": {
+									"row": 2,
+									"col": 2,
+									"full": false
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

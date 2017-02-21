@@ -1,0 +1,43 @@
+.page-nav{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  z-index: 60;
+}
+
+.nav-bar{
+  background-color: #fff;
+}
+
+.controls{
+  padding: 10px 0px;
+  height: 100%;
+  float: right;
+  margin-right: 50px;
+}
+
+.btn{
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Ariel", sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+  background: #99cc00;
+  color: #fff;
+  width: auto;
+  padding: 5px 15px;
+  border: 1px solid #669900;
+  border-radius: 5px;
+}
+
+.btn-print{
+  color: #0000ff;
+  border-color: #0000ff;
+  background-color: #fff;
+  margin-right: 24px;
+}
+
+.nav-hover{
+
+}

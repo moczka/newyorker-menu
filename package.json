@@ -1,0 +1,27 @@
+{
+  "name": "newyorker-menu",
+  "version": "1.0.0",
+  "description": "A menu web application for the New Yorker Diner in Watertown, MA",
+  "main": "temp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moczka/newyorker-menu.git"
+  },
+  "keywords": [
+    "menu",
+    "restaurant",
+    "diner",
+    "web",
+    "app",
+    "js"
+  ],
+  "author": "Javier S Guerrero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moczka/newyorker-menu/issues"
+  },
+  "homepage": "https://github.com/moczka/newyorker-menu#readme"
+}

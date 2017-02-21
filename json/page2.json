@@ -1,0 +1,283 @@
+{
+	"rows": [
+		{
+			"cols": [
+				{
+					"categories": [
+						{
+							"category": {
+								"title": "French Toasts",
+								"description": "All french toasted are served with Vermont maple syrup and butter. Substitude for gluten-free bread ($2.00).",
+								"stations": [
+									{"letter": "N",
+										"color": "yellow"
+									},
+									{"letter": "E",
+										"color": "blue"
+									},
+									{"letter": "7",
+										"color": "green"
+									}
+								],
+								"meals": [
+									{
+										"title": "Bonjour",
+										"price": "$7.99",
+										"description": "Cut sliced challah bread dipped in our homemade french toast better, grilled until perfect taste  served with Vermont maple syrup."
+									},
+									{
+										"title": "Le Petit Pain Grille",
+										"price": "$10.99",
+										"description": "Cut sliced challah bread in our homemade french toasted better topped with roasted coconut, cut fresh diced pineapple and melted mascarpone cheese."
+									},
+									{
+										"title": "Paris",
+										"price": "$10.99",
+										"description": "Cut sliced challah bread in our homemade french toasted better topped with melted mascarpone cheese and roasted pears and house made caramel sauce."
+									},
+									{
+										"title": "La Tour Eiffel ",
+										"price": "$10.99",
+										"description": "Cut sliced challah bread in our homemade french toasted better topped with Nutella and bananas and strawberries topped with house made melted mascarpone cheese sauce."
+									}
+								],
+								"images": [
+									{
+										"src": "assets/raster/french_toast1.png",
+										"className": "meal-image-two"
+									}
+								],
+								"note": {},
+								"position": {
+									"row": 1,
+									"col": 1,
+									"full": false
+								}
+							}
+						}
+					]
+				},
+				{
+					"categories": [
+						{
+							"category": {
+								"title": "Breakfast Sandwiches",
+								"description": "",
+								"stations": [
+									{"letter": "S",
+										"color": "green"
+									},
+									{"letter": "7",
+										"color": "purple"
+									}
+								],
+								"meals": [
+									{
+										"title": "Egg and Cheese Sandwich",
+										"price": "$4.99",
+										"description": "Choose any one meat to finish your sandwich. Choose bacon, sausage, turkey, ham or smoked salmon for $2.50 more."
+									},
+									{
+										"title": "The Empire",
+										"price": "$6.99",
+										"description": "Two eggs omelette style, melted swiss cheese, sparagus, zucchini, and bacon."
+									},
+									{
+										"title": "Signature Sandwich",
+										"price": "$8.99",
+										"description": "Apple wood smoked bacon, egg homemade corned beef hash, cheddar cheese, crispy home fries all buited as a sandwich served on brioche bun."
+									},
+									{
+										"title": "The Lox",
+										"price": "$9.99",
+										"description": "Bagel, egg, fresh tomato, sliced red onion, smoked salmon, cream cheese spread, and capers."
+									},
+									{
+										"title": "Bruschetta (v)",
+										"price": "$8.99",
+										"description": "Egg, avocado, balsamic glaze, sliced tomatoes, extra virgen olive oil, garlic aioli and fresh basil"
+									}
+								],
+								"images": [
+									{
+										"src": "assets/raster/bruchetta.png",
+										"className": "meal-image-two"
+									},
+									{
+										"src": "assets/raster/signature_sandwhich.png",
+										"className": "meal-image-two"
+									}
+								],
+								"note": {},
+								"position": {
+									"row": 1,
+									"col": 2,
+									"full": false
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"cols": [
+				{
+					"categories": [
+						{
+							"category": {
+								"title": "Breakfast++",
+								"description": "",
+								"stations": [
+									{"letter": "L",
+										"color": "grey"
+									},
+									{"letter": "D",
+										"color": "orange"
+									},
+									{"letter": "C",
+										"color": "blue"
+									}
+								],
+								"meals": [
+									{
+										"title": "Belgian Waffle",
+										"price": "$7.99",
+										"description": "Served with Vermont maple syrup and butter. Add fruit to your waffle $1.25 each. (Banana, strawberry, blueberry, roasted coconut, chocolate chips, pineapple and nutella)."
+									},
+									{
+										"title": "‘Loaded’ Home Fries",
+										"price": "$9.95",
+										"description": "Home fries tossed with mushrooms, sausage, peppers, sun dried tomatoes and onions, with melted cheddar cheese and a lemon zest  hollandaise sauce  drizzle topped with two eggs any style."
+									},
+									{
+										"title": "The Grand Slam!",
+										"special": true,
+										"price": "$9.99",
+										"description": "Our best special offer! 2 eggs any style, 2 bacon strips, 2 sausage with a choice of 2 slices of french toast or 2 pancakes, home fries or tossed salad and a cup of coffee."
+									},
+									{
+										"title": "Custom Breakfast",
+										"price": "$7.99",
+										"description": "Three eggs any style choose bacon, signature sausage or ham, come with house toast and home fries or tossed salad."
+									},
+									{
+										"title": "Huevos Rancheros",
+										"price": "$10.95",
+										"description": "Two eggs any style topped w/onions, peppers, melted  cheddar cheese. With black beans, sausa, sour cream, guacamole and tortillas on the side."
+									},
+									{
+										"title": "Early Bird",
+										"price": "$5.99",
+										"description": "Two eggs any style, two bacon or sausage or ham, come with home fries or tossed salad and house toast and a coffee.",
+										"special": true
+									},
+									{
+										"title": "Flat Iron Steak",
+										"price": "$11.99",
+										"description": "6oz flat iron steak, 3 eggs any style, home toast, home fries or tossed salad."
+									}
+								],
+								"images": [
+
+									{
+										"src": "assets/raster/strawberry_waffle.png",
+										"className": "meal-image-two"
+									}
+								],
+								"note": {},
+								"position": {
+									"row": 2,
+									"col": 1,
+									"full": false
+								}
+							}
+						}
+					]
+				},
+				{
+					"categories": [
+						{
+							"category": {
+								"title": "Breakfast Sides",
+								"description": "",
+								"stations": [
+									{"letter": "A",
+										"color": "red"
+									},
+									{"letter": "M",
+										"color": "orange"
+									},
+									{"letter": "J",
+										"color": "brown"
+									}
+								],
+								"meals": [
+									{
+										"title": "Bacon",
+										"price": "$3.99"
+									},
+									{
+										"title": "Signature Sausage",
+										"price": "$3.99"
+									},
+									{
+										"title": "Ham Steak",
+										"price": "$3.99"
+									},
+									{
+										"title": "Fresh Fruit Cup",
+										"price": "$3.99"
+									},
+									{
+										"title": "Yogurt Parfait",
+										"price": "$4.99"
+									},
+									{
+										"title": "Muffins",
+										"price": "$2.55"
+									},
+									{
+										"title": "Smoked Salmon",
+										"price": "$7.00"
+									},
+									{
+										"title": "Scrambled Egg",
+										"price": "$1.99"
+									},
+									{
+										"title": "Bagel W/ Cream Cheese",
+										"price": "$3.25"
+									},
+									{
+										"title": "Corned Beef Hash",
+										"price": "$4.99"
+									},
+									{
+										"title": "Oat Meal",
+										"price": "$2.99"
+									},
+									{
+										"title": "Toasts",
+										"price": "$1.99"
+									},
+									{
+										"title": "Gluten Free Bread",
+										"price": "$2.99"
+									}
+								],
+								"images": [],
+								"note": {},
+								"position": {
+									"row": 2,
+									"col": 2,
+									"full": false
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
