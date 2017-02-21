@@ -100,3 +100,38 @@ li.meal-image-one, li.meal-image-two, li.meal-image-full{
     */
 
 }
+
+/* IPHONE SCREEN SIZE */
+
+@media (max-width: 576px) {
+
+
+  .meal-price{
+    float: left;
+  }
+  .meal-title{
+    display: block;
+    width: 100%;
+  }
+
+    /* resets image size */
+
+    .meal-image-one +li, .meal-image-one + li + li{
+      width: 100%;
+    }
+
+    .meal-image-two + li+li, .meal-image-two +li{
+      width: 100%;
+    }
+    .meal-image-full +li+li, .meal-image-full +li, .meal-image-full+li+li+li{
+      width: 100%;
+    }
+
+  /* sets appropriate width of following meals */
+
+  .meal-image-one + li, .meal-image-two + li, .meal-image-full +li{
+    width: 50%;
+  }
+
+
+}

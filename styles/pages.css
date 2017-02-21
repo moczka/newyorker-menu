@@ -167,6 +167,7 @@ ul, ol{
 /* close commented backslash hack */
 
 
+/* IPAD SIZE */
 @media only screen and (max-width: 767px){
 
     /* make everything take up the entire width of the viewport, all meals */
@@ -174,5 +175,13 @@ ul, ol{
       float: none;
       width: 100%;
     }
+
+}
+
+/* IPHONE SCREEN SIZE */
+@media (min-width: 576px) {
+
+
+
 
 }

@@ -38,6 +38,13 @@
   margin-right: 24px;
 }
 
-.nav-hover{
+
+@media (max-width: 576px) {
+
+  
+  .btn-print{
+    margin-right: 5px;
+  }
+
 
 }

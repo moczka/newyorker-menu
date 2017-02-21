@@ -43,8 +43,22 @@
   margin-bottom: 2px;
 }
 
-@media only screen and (max-width: 767px){
 
+/* IPAD screen size */
+@media only screen and (max-width: 7px){
+
+
+}
+
+/* IPHONE SIZE */
+@media (max-width: 576px) {
+
+  .category-header > h2{
+    width: 100%;
+  }
+  .category-header > span{
+    float: left;
+  }
 
 
 }

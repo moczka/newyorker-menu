@@ -1,6 +1,6 @@
 window.onload = function(){
 
-    var json_data = $.get('json/page4.json'),
+    var json_data = $.get('json/page1.json'),
         container = $('#app'),
         data,
         templates = {
@@ -20,7 +20,26 @@ window.onload = function(){
           attach();
         });
 
+        var $ladyButton = $('.lady-liberty'),
+            $navBar = $('.page-nav');
+
+            $ladyButton.on('click', toggleNavigator);
+
+
+
+
+
+
+        function toggleNavigator(e){
+
+          $navBar.toggleClass('hidden');
+          console.log('libery clicked');
+
+        }
+
         function handleControls(e){
+
+          e.preventDefault();
 
           var target = e.target;
 

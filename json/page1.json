@@ -38,7 +38,7 @@
 									{
 										"title": "Manhattan",
 										"price": "$10.99",
-										"description": "Our House-made chili and melted cheddar cheese, topped with sour cream. Made with  farm fresh eggs, served with home fries or tossed salad"
+										"description": "Our House-made chili and melted cheddar cheese, topped with sour cream."
 									}
 								],
 								"images": [
@@ -202,12 +202,12 @@
 								"meals": [
 									{
 										"title": "Butter Milk",
-										"price": "$6.99 (Full Stack)",
+										"price": "$6.99 (Full)",
 										"description": "A delicious full stack of butter milk pancakes. You can choose a stack of two for $5.99 or a single for $3.99"
 									},
 									{
 										"title": "Sweet Potato",
-										"price": "(Full Stack) $8.99",
+										"price": "(Full) $8.99",
 										"description": "A choice of two for $6.99, and one for $3.99"
 									},
 									{
