@@ -42,21 +42,30 @@
   color: #BF390B;
 }
 
-li.meal-image-one, li.meal-image-two, li.meal-image-full{
+.meal-image > img{
+  display: block;
+  border: 1px solid #BF390B;
+  width: 95%;
+}
+
+img.meal-image-loading{
+  background: #fff url(../../../assets/gif/ajax-loader.gif) no-repeat center center fixed;
+}
+
+li.meal-image{
   padding: 3px;
   width: 50%;
 }
-.meal-image-one > img, .meal-image-two > img, .meal-image-full > img{
-  width: 97%;
-  border: 1px solid #902e15;
-}
-.meal-image-one + li{
+.meal-image + li{
   width: 50%;
 }
-.meal-image-two + li+li, .meal-image-two +li{
+.meal-image-two +li+li{
   width: 50%;
 }
-.meal-image-full +li+li, .meal-image-full +li, .meal-image-full+li+li+li{
+.meal-image-three +li+li, .meal-image-three+li+li+li{
+  width: 50%;
+}
+.meal-image-full + li+li, .meal-image-full+li+li+li, .meal-image-full+li+li+li+li{
   width: 50%;
 }
 
@@ -81,23 +90,6 @@ li.meal-image-one, li.meal-image-two, li.meal-image-full{
 
 @media only screen and (max-width: 767px){
 
-    /* make everything take up the entire width of the viewport, all meals
-    li.meal-image-one, li.meal-image-two, li.meal-image-full{
-      padding: 3px;
-      width: 50%;
-    }
-    */
-    .meal-image-one + li, .meal-image-one + li+li{
-      width: 50%;
-    }
-    /*
-    .meal-image-two + li+li, .meal-image-two +li{
-      width: 100%;
-    }
-    .meal-image-full +li+li, .meal-image-full +li, .meal-image-full+li+li+li{
-      width: 100%;
-    }
-    */
 
 }
 

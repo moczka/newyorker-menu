@@ -82,8 +82,8 @@
         <ul class="category-list clearfix">
 
           <% if(category.images.length>0){  %>
-            <li class="<%= category.images[0].className %>">
-              <img src="<%= category.images[0].src %>" alt="Menu image">
+            <li class="meal-image <%=category.images[0].className %>">
+              <img class="meal-image-loading" src="<%= category.images[0].src %>" alt="Menu image">
             </li>
           <% } %>
 
@@ -133,7 +133,7 @@
 
     <footer class="footer-skyline">
       <img src="assets/svg/new_york_skyline.svg"/>
-      <div class="footer-warning">
+      <div class="footer-warning hidden">
         <h5>Consuming undercooked or raw foods may increase the risk of foodborne illness. Before placing your order, please notify us of any food related allergies you may have.</h5>
       </div>
     </footer>

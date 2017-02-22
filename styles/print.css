@@ -12,10 +12,6 @@
   .footer-skyline > img{
     max-width: 100%;
   }
-  /*displays the warning message*/
-  .footer-warning{
-    display: none;
-  }
   /*hide nav bar */
   .page-nav{
     display: none;

@@ -20,20 +20,24 @@ window.onload = function(){
           attach();
         });
 
-        var $ladyButton = $('.lady-liberty'),
+        var $banner = $('.top-banner'),
             $navBar = $('.page-nav');
 
-            $ladyButton.on('click', toggleNavigator);
+            $banner.delegate('img', 'click', handleBanner);
 
 
+        function handleBanner(e){
 
+          var $el = $(this);
 
+          if($el.hasClass('lady-liberty')){
+            $navBar.toggleClass('hidden');
+            console.log('libery clicked');
+          }else{
+            $('.footer-warning').toggleClass('hidden');
+            console.log('Brooklyn bridge was clicked');
+          }
 
-
-        function toggleNavigator(e){
-
-          $navBar.toggleClass('hidden');
-          console.log('libery clicked');
 
         }
 
