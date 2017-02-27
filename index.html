@@ -29,7 +29,7 @@
 
       <div class="row clearfix">
 
-          <div class="container clearfix <%= (true)? 'l-subway-frame' : '' "></div>
+          <div class="container clearfix <%= (row.className)? row.className: '' %>"></div>
 
 
       </div>
@@ -94,7 +94,7 @@
   </script>
   <script id="mealTemplate" type="text/template">
 
-        <li>
+        <li class="<%= (meal.shared)? 'meal-is-shared' : '' %>">
             <div class="meal">
               <header class="meal-header clearfix">
                 <h3 class="meal-title <%= meal.special? 'meal-special' : '' %>"><%= meal.title %></h3>

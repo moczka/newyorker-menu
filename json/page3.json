@@ -6,8 +6,8 @@
 					"categories": [
 						{
 							"category": {
-								"title": "Hot Sandwhiches",
-								"description": "All Sandwiches come with a choice of house made chips, coleslaw or pickles. Substitude house made chips for fries $2.00 or sweet potato fries for $2.50 or onion rings for $3.00",
+								"title": "Hot Sandwiches",
+								"description": "All Sandwiches are served with a choice of house made chips or coleslaw and pickles. Choice of one dipping sauce. Substitute house made chips for fries $2.00 or sweet potato fries for $2.50 or onion rings for $3.00",
 								"stations": [
 									{"letter": "1",
 										"color": "red"
@@ -38,7 +38,8 @@
 									{
 										"title": "Melted Tuna",
 										"price": "$8.99",
-										"description": "Chunk white tuna, tomato, Swiss cheese, pressed on house rustic.*"
+										"description": "Chunk white tuna, tomato, Swiss cheese, pressed on house rustic.*",
+										"shared": true
 									},
 									{
 										"title": "The Gloucester",
@@ -48,12 +49,13 @@
 									{
 										"title": "Pastrami Reuben",
 										"price": "$9.99",
-										"description": "Shaved pastrami, Swiss cheese, sauerkraut, thousand island dressing, pressed on rye."
+										"description": "Shaved pastrami, Swiss cheese, sauerkraut, thousand island dressing, pressed on rye.",
+										"shared": true
 									},
 									{
 										"title": "Try One!",
 										"special": true,
-										"description": "One of our signature dipping sauces: chipotle aioli, house dressing, poblano ranch, BBQ, garlic aioli and honey dijon. (Extra $0.50)"
+										"description": "One of our signature dipping sauces: chipotle aioli, house dressing, avocado ranch, poblano ranch, BBQ, garlic aioli and honey dijon. (Extra $0.50)"
 									}
 								],
 								"images": [
@@ -77,7 +79,7 @@
 						{
 							"category": {
 								"title": "Cold Sandwhiches",
-								"description": "All Sandwiches come with house made chips or coleslaw and pickles. Substitude house made chips for fries $2.00 or sweet potato fries for $2.50 or onion rings for $3.00",
+								"description": "All Sandwiches are served with a choice of house made chips or coleslaw and pickles. Choice of one dipping sauce. Substitute house made chips for fries $2.00 or sweet potato fries for $2.50 or onion rings for $3.00",
 								"stations": [
 									{"letter": "A",
 										"color": "red"
@@ -108,12 +110,12 @@
 									{
 										"title": "Spicy Tuna Maki",
 										"price": "$8.99",
-										"description": "Sushi inspired tuna salad, dried nori, cucumber, avocado, cusabi aioli, whole wheat."
+										"description": "Sushi inspired tuna salad, dried nori, cucumber, avocado, cusabi aioli served on whole wheat bread."
 									},
 									{
 										"title": "Turkey Club",
 										"price": "$8.99",
-										"description": "House made roasted turkey, sliced tomatoes, lettuce, apple wood smoked bacon, mayo"
+										"description": "Our Triple decker Sandwich made with House made roasted turkey, sliced tomatoes, lettuce, apple wood smoked bacon and mayo served on choice of bread."
 									}
 								],
 								"images": [
@@ -142,7 +144,7 @@
 						{
 							"category": {
 								"title": "Wraps &amp; Burgers",
-								"description": "All wraps and burgers come with house made chips or coleslaw and pickles. Substitude house made chips for fries $2.00 or sweet potato fries for $2.50 or onion rings ($3.00)",
+								"description": "All wraps and burgers are served with a choice of house made chips or coleslaw and pickles. Choice of one dipping sauce. Substitute house made chips for fries $2.00 or sweet potato fries for $2.50 or onion rings for $3.00",
 								"stations": [
 									{"letter": "L",
 										"color": "grey"
@@ -156,44 +158,45 @@
 								],
 								"meals": [
 									{
-										"title": "Greek Wrap",
+										"title": "Chicken Caesar Wrap",
 										"price": "$8.99",
-										"description": "Grilled chicken, feta,cucumbers , olives, lettuce, tomato and onion with greek dressing\n                Side whole wheat tortilla."
+										"description": "Grilled chicken, romaine lettuce, Caesar dressing with parmesan and croutons."
 									},
 									{
-										"title": "Chicken Caesar",
-										"price": "$8.99",
-										"description": "Grilled chicken, romaine lettuce, caesar dressing with parmesan and croutons."
+										"title": "California Turkey Cobb Wrap",
+										"price": "$9.99",
+										"description": "Roasted turkey, hard boiled eggs, bacon, bleu cheese, sweet onion, avocado, olives, romaine letuce and tomatoes."
 									},
 									{
-										"title": "Buffalo Chicken",
+										"title": "Buffalo Chicken Wrap",
 										"price": "$8.99",
 										"description": "Buffalo crispy chicken, lettuce, tomato and crumbled blue cheese."
 									},
 									{
-										"title": "California Turkey Cobb",
-										"price": "$9.99",
-										"description": "Roasted turkey, bacon, bleu cheese, sweet onion, avocado,  olives and romaine letuce  hard boiled eggs, tomatoes."
+										"title": "Greek Wrap",
+										"price": "$8.99",
+										"description": "Grilled chicken, feta, cucumbers, olives, lettuce, tomato and onion with Greek dressing."
 									},
-									{},
 									{
 										"title": "Classic Burger",
-										"price": "$7.99",
-										"description": "½ lb Burger served on brioche bread with lettuce, onions and tomato."
+										"price": "$6.99",
+										"description": "½ lb Burger served on brioche bread with lettuce, onions and tomato.",
+										"shared": true
 									},
 									{
 										"title": "Heart Attack Burger",
 										"price": "$9.99",
-										"description": "½ lb Burger fried egg apple wood-smoked beacon, melted cheddar cheese, corned beef hash, lettuce and tomatoes."
+										"description": "½ lb Burger fried egg apple wood-smoked bacon, melted cheddar cheese, corned beef hash, lettuce and tomatoes."
 									},
 									{
 										"title": "Lamb Burger",
 										"price": "$9.99",
-										"description": "Served on a brioche bun with spinach red sliced onions, fetta cheese, tomato, tzatziki sauce."
+										"description": "Served on a brioche bun with spinach, red sliced onions, feta cheese, tomato, tzatziki sauce.",
+										"shared": true
 									},
 									{
 										"title": "BBQ Burger",
-										"price": "$9.99",
+										"price": "$8.99",
 										"description": "½ lb topped with melted cheddar cheese, onions rings, bacon and BBQ sauce."
 									}
 								],
@@ -227,24 +230,26 @@
 								],
 								"meals": [
 									{
-										"title": "Garden salad",
-										"price": "$7.99",
+										"title": "Garden Salad",
+										"price": "$5.99",
 										"description": "Organic greens, cucumbers, grape tomatoes, asparagus, red onions, carrots balsamic dressing."
 									},
 									{
-										"title": "Caesars",
-										"price": "$7.99",
-										"description": "Chopped romaine lettuce, parmesan cheese, croutons tossed on creamy Caesars dressing."
+										"title": "Caesar Salad",
+										"price": "$6.99",
+										"description": "Chopped romaine lettuce, parmesan cheese, croutons tossed in creamy Caesar dressing.",
+										"shared": true
 									},
 									{
-										"title": "Avocado Quinoa",
-										"price": "$8.99",
-										"description": "Red quinoa, organic greens, chick peas, carrots, avocado, cucumbers, red onions, julienne peppers, balsamic dressing."
+										"title": "Harvest Salad",
+										"price": "$7.99",
+										"description": "Organic greens, goat cheese, dried cranberries, glazed walnuts tossed with balsamic."
 									},
 									{
 										"title": "Cobb salad",
 										"price": "$8.99",
-										"description": "Chopped romaine lettuce, diced tomatoes, red onions, blue cheese, bacon bits, hard boiled eggs, shared cheddar cheese, cucumbers balsamic dressing."
+										"description": "Chopped romaine lettuce, diced tomatoes, red onions, blue cheese, bacon bits, hard boiled eggs, shredded cheddar cheese, cucumbers balsamic dressing.",
+										"shared": true
 									},
 									{
 										"title": "The Caprese",
@@ -252,14 +257,15 @@
 										"description": "Organic greens, vine ripe tomatoes, fresh mozzarella, basil, olive oil, balsamic glaze balsamic dressing."
 									},
 									{
-										"title": "Taco salad ",
-										"price": "$8,99",
-										"description": "Taco shell, chedda cheese, diced tomatoes, avocado, red peppers, cucumbers, beef chille."
-									},
-									{
 										"title": "Greek Salad",
 										"price": "$8.99",
-										"description": "Chopped‎ romaine lettuce topped with feta cheese, black olives, tomatoes, onion and a touch of oregano. Served with creamy greek dressing."
+										"description": "Chopped‎ romaine lettuce topped with feta cheese, black olives, tomatoes, onion and a touch of oregano. Served with creamy Greek dressing.",
+										"shared": true
+									},
+									{
+										"title": "Taco Salad ",
+										"price": "$8.99",
+										"description": "Taco shell, cheddar cheese, diced tomatoes, avocado, red peppers, cucumbers, beef chili."
 									}
 								],
 								"images": [],

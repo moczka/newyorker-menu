@@ -6,8 +6,8 @@
 					"categories": [
 						{
 							"category": {
-								"title": "French Toasts",
-								"description": "All french toasted are served with Vermont maple syrup and butter. Substitude for gluten-free bread ($2.00).",
+								"title": "French Toast",
+								"description": "Sliced challah bread dipped in our homemade egg batter, grilled to perfection. Served with Vermont maple syrup and butter. Substitute gluten-free bread ($2.00).",
 								"stations": [
 									{"letter": "N",
 										"color": "yellow"
@@ -23,22 +23,22 @@
 									{
 										"title": "Bonjour",
 										"price": "$7.99",
-										"description": "Cut sliced challah bread dipped in our homemade french toast better, grilled until perfect taste  served with Vermont maple syrup."
+										"description": "Our signature french toast."
 									},
 									{
 										"title": "Le Petit Pain Grille",
-										"price": "$10.99",
-										"description": "Cut sliced challah bread in our homemade french toasted better topped with roasted coconut, cut fresh diced pineapple and melted mascarpone cheese."
+										"price": "$8.99",
+										"description": "Topped with roasted coconut, fresh diced pineapple and melted mascarpone cheese."
 									},
 									{
 										"title": "Paris",
-										"price": "$10.99",
-										"description": "Cut sliced challah bread in our homemade french toasted better topped with melted mascarpone cheese and roasted pears and house made caramel sauce."
+										"price": "$8.99",
+										"description": "Topped with melted mascarpone cheese, roasted pears and house made caramel sauce."
 									},
 									{
 										"title": "La Tour Eiffel ",
-										"price": "$10.99",
-										"description": "Cut sliced challah bread in our homemade french toasted better topped with Nutella and bananas and strawberries topped with house made melted mascarpone cheese sauce."
+										"price": "$9.99",
+										"description": "Topped with Nutella, bananas, strawberries topped with melted mascarpone cheese."
 									}
 								],
 								"images": [
@@ -80,21 +80,22 @@
 									{
 										"title": "The Empire",
 										"price": "$6.99",
-										"description": "Two eggs omelette style, melted swiss cheese, sparagus, zucchini, and bacon."
+										"description": "Two eggs omelette style, melted swiss cheese, asparagus, zucchini, and bacon."
 									},
 									{
 										"title": "Signature Sandwich",
-										"price": "$8.99",
-										"description": "Apple wood smoked bacon, egg homemade corned beef hash, cheddar cheese, crispy home fries all buited as a sandwich served on brioche bun."
+										"price": "$7.99",
+										"description": "Apple wood smoked bacon, egg homemade corned beef hash, melted cheddar cheese and crispy home fries all piled high on a brioche bun."
 									},
 									{
 										"title": "The Lox",
-										"price": "$9.99",
-										"description": "Bagel, egg, fresh tomato, sliced red onion, smoked salmon, cream cheese spread, and capers."
+										"price": "$8.99",
+										"description": "Bagel, egg, fresh tomato, sliced red onion, smoked salmon, cream cheese spread, and capers.",
+										"shared": true
 									},
 									{
 										"title": "Bruschetta (v)",
-										"price": "$8.99",
+										"price": "$7.99",
 										"description": "Egg, avocado, balsamic glaze, sliced tomatoes, extra virgen olive oil, garlic aioli and fresh basil"
 									}
 								],
@@ -118,7 +119,8 @@
 						}
 					]
 				}
-			]
+			],
+			"className": "l-subway-frame"
 		},
 		{
 			"cols": [
@@ -142,24 +144,13 @@
 								"meals": [
 									{
 										"title": "Belgian Waffle",
-										"price": "$7.99",
-										"description": "Served with Vermont maple syrup and butter. Add fruit to your waffle $1.25 each. (Banana, strawberry, blueberry, roasted coconut, chocolate chips, pineapple and nutella)."
+										"price": "$6.99",
+										"description": "Served with Vermont maple syrup and butter. Add fruit to your waffle $1.25 each. (Banana, strawberry, blueberry, roasted coconut, pecans, chocolate chips, pineapple and nutella)."
 									},
 									{
 										"title": "‘Loaded’ Home Fries",
 										"price": "$9.95",
-										"description": "Home fries tossed with mushrooms, sausage, peppers, sun dried tomatoes and onions, with melted cheddar cheese and a lemon zest  hollandaise sauce  drizzle topped with two eggs any style."
-									},
-									{
-										"title": "The Grand Slam!",
-										"special": true,
-										"price": "$9.99",
-										"description": "Our best special offer! 2 eggs any style, 2 bacon strips, 2 sausage with a choice of 2 slices of french toast or 2 pancakes, home fries or tossed salad and a cup of coffee."
-									},
-									{
-										"title": "Custom Breakfast",
-										"price": "$7.99",
-										"description": "Three eggs any style choose bacon, signature sausage or ham, come with house toast and home fries or tossed salad."
+										"description": "Home fries tossed with mushrooms, sausage, peppers, sun dried tomatoes and onions, with melted cheddar cheese topped with two eggs any style and a lemon zest hollandaise sauce."
 									},
 									{
 										"title": "Huevos Rancheros",
@@ -169,13 +160,13 @@
 									{
 										"title": "Early Bird",
 										"price": "$5.99",
-										"description": "6AM to 8AM ONLY, M-F. Two eggs any style, two bacon or sausage or ham, comes with a choice of home fries, tossed salad or house toast. And a cup coffee.",
+										"description": "6AM to 8AM ONLY, M-F. Two eggs any style, bacon, sausage or ham, served with a choice of home fries or tossed salad. Served with house toast and a cup of coffee.",
 										"special": true
 									},
 									{
 										"title": "Flat Iron Steak",
-										"price": "$11.99",
-										"description": "6oz flat iron steak, 3 eggs any style, home toast, home fries or tossed salad."
+										"price": "$9.99",
+										"description": "6oz flat iron steak, 3 eggs any style, home fries or tossed salad served with choice of toast."
 									}
 								],
 								"images": [
@@ -197,6 +188,26 @@
 				},
 				{
 					"categories": [
+						{
+							"category": {
+								"title": "",
+								"description": "",
+								"meals": [
+									{
+										"title": "The Grand Slam!",
+										"special": true,
+										"price": "$8.99",
+										"description": "Our best special offer! 2 eggs any style, 2 bacon strips, 2 sausage with a choice of 2 slices of french toast or 2 pancakes, home fries or tossed salad and a cup of coffee."
+									},
+									{
+										"title": "Custom Breakfast",
+										"price": "$7.99",
+										"description": "Three eggs any style choose bacon, signature sausage or ham, served with house toast and home fries or tossed salad."
+									}
+								],
+								"images": []
+							}
+						},
 						{
 							"category": {
 								"title": "Breakfast Sides",
@@ -242,7 +253,7 @@
 										"price": "$7.00"
 									},
 									{
-										"title": "Scrambled Egg",
+										"title": "Single Egg",
 										"price": "$1.99"
 									},
 									{
@@ -254,7 +265,7 @@
 										"price": "$4.99"
 									},
 									{
-										"title": "Oat Meal",
+										"title": "Oatmeal",
 										"price": "$2.99"
 									},
 									{

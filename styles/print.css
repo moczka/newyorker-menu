@@ -17,4 +17,14 @@
     display: none;
   }
 
+  /* move back cover flag down on print */
+
+  .back-cover{
+    max-width: 900px;
+    margin: 0px auto;
+    position: relative;
+    top: 150px;
+  }
+
+
 }

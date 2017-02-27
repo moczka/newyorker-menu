@@ -82,7 +82,9 @@ window.onload = function(){
 
             _.each(data.rows, function(rowData){
 
-              var $rowHTML = $(templates.row());
+              var $rowHTML = $(templates.row({row: {className: rowData.className}}));
+
+              console.log({row: {className: rowData.className}}, 'HERE IS THE COL');
 
               _.each(rowData.cols, function(colData){
 

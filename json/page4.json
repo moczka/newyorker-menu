@@ -23,19 +23,22 @@
 									{
 										"title": "Mozzarella Sticks",
 										"price": "$6.99",
-										"description": "Served with marinara sauce."
+										"description": "Served with marinara sauce.",
+										"shared": true
 									},
 									{
-										"title": "Egg Plant Fries",
+										"title": "Eggplant Fries",
 										"price": "$7.99",
 										"description": "Served with marinara sauce."
 									},
 									{
 										"title": "Buffalo Chicken Wings",
+										"description": "Served with carrots, celery and bleu cheese.",
 										"price": "$8.99"
 									},
 									{
 										"title": "Chicken Tenders w/ Fries",
+										"description": "Served with one of our signature dipping sauce.",
 										"price": "$8.99"
 									},
 									{
@@ -50,7 +53,8 @@
 									},
 									{
 										"title": "Hand Cut French fries",
-										"price": "$3.99"
+										"price": "$3.99",
+										"shared": true
 									},
 									{
 										"title": "Sweet Potato Fries",
@@ -58,7 +62,9 @@
 									},
 									{
 										"title": "Onion Rings",
-										"price": "$4.99"
+										"price": "$4.99",
+										"shared": true
+
 									},
 									{
 										"title": "House Made Chips",
@@ -91,20 +97,20 @@
 								],
 								"meals": [
 									{
-										"title": "Fries shrimp with coleslaw and French fries",
+										"title": "Fried Shrimp served with coleslaw and fries",
 										"price": "$11.99"
 									},
 									{
-										"title": "Fried Fish tips served /w coleslaw and french fries",
-										"price": "$11.99"
+										"title": "Fried haddock tips served /w coleslaw and fries",
+										"price": "$10.99"
 									},
 									{
-										"title": "Sea basket, fried shrimp ,fish tips ,served with coleslaw and fries",
+										"title": "Sea basket, fried shrimp, haddock tips served with coleslaw and fries",
 										"price": "$13.99"
 									},
 									{
-										"title": "Fried calamari w/ Coleslaw",
-										"price": "$8.99"
+										"title": "Fried calamari served with coleslaw and fries",
+										"price": "$9.99"
 									}
 								],
 								"images": [],
@@ -138,10 +144,10 @@
 								],
 								"meals": [
 									{
-										"title": "BLT Sandwich"
+										"title": "BLT"
 									},
 									{
-										"title": "Melted Tuna"
+										"title": "Tuna Melt"
 									},
 									{
 										"title": "Ham and Swiss"
@@ -170,7 +176,7 @@
 						{
 							"category": {
 								"title": "Soups of The Day",
-								"description": "Served as a cup or as a bow",
+								"description": "Served as a cup or as a bowl",
 								"stations": [
 									{"letter": "1",
 										"color": "red"
@@ -185,19 +191,19 @@
 								"meals": [
 									{
 										"title": "Tomato Basil",
-										"price": "Cup $3.99 or Bowl $4.95"
+										"price": "Cup $3.95 or Bowl $4.95"
 									},
 									{
-										"title": "Chiken Noodle",
-										"price": "Cup $3.99 or Bowl $4.95"
+										"title": "Chicken Noodle",
+										"price": "Cup $3.95 or Bowl $4.95"
 									},
 									{
 										"title": "Clam Choudar",
-										"price": "Cup $3.99 or Bowl $4.95"
+										"price": "Cup $4.95 or Bowl $5.95"
 									},
 									{
-										"title": "Chille Soup",
-										"price": "Cup $4.99 or Bowl $5.95"
+										"title": "Meat Chili",
+										"price": "Cup $4.95 or Bowl $5.95"
 									}
 								],
 								"images": [],
@@ -244,10 +250,10 @@
 									{
 										"title": "Natural Juice",
 										"price": "$2.95(M) - $3.95(L)",
-										"description": "Any of orange, apple, cranberry or tomato juice."
+										"description": "Orange, apple, cranberry, pineapple or tomato juice."
 									},
 									{
-										"title": "Iced Coffe",
+										"title": "Iced Coffee",
 										"price": "$2.49"
 									},
 									{
@@ -271,13 +277,13 @@
 										"price": "$2.45"
 									},
 									{
-										"title": "Fresh Brew Coffee",
+										"title": "Fresh Brewed Coffee",
 										"price": "$2.25"
 									},
 									{
 										"title": "Milk Shake",
 										"price": "$5.99",
-										"description": "Choose two strawberry, banana, peanut butter, nutella, blueberry, pineapple, coconut, vanilla."
+										"description": "Classic shake made with real ice cream and milk. Choose two ingridients: banana, peanut butter, nutella, blueberry, pineapple, coconut, vanilla and chocolate."
 									}
 								],
 								"images": [],
@@ -316,7 +322,7 @@
 									},
 									{
 										"title": "New Yorker Brownie Sunday",
-										"price": "$4.99",
+										"price": "$5.99",
 										"description": "Served with a scoop of vanilla ice cream, topped with strawberry, blueberries and drizzled nutella."
 									}
 								],
