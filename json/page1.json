@@ -6,8 +6,8 @@
 					"categories": [
 						{
 							"category": {
-								"title": "Omelette",
-								"description": "All omelets are made with three farm fresh eggs and served with choice of toast and hand-cut home fries or tossed salad. Substitute fruit salad for home fries $1.00 Egg whites are available for an additional of $2.00\nBread options: Whole Wheat, Scali, Rye, Multi-grain. Gluten-free add $2.00",
+								"title": "Omelet",
+								"description": "All omelets are made with three farm fresh eggs and served with choice of toast and hand-cut home fries or tossed salad. Substitute home fries for fruit salad $1.50 Egg whites are available for an additional of $2.00\nBread options: Whole Wheat, Scali, Rye. Gluten-free add $2.00, English muffin, Bagel $0.59",
 								"stations": [
 									{"letter": "A",
 										"color": "blue"
@@ -22,7 +22,7 @@
 								"meals": [
 									{
 										"title": "Queens",
-										"price": "$8.99",
+										"price": "$9.99",
 										"description": "Slow roasted shredded pulled pork with peppers, onions, house made BBQ sauce and melted cheddar cheese."
 									},
 									{
@@ -32,7 +32,7 @@
 									},
 									{
 										"title": "The Carnegie",
-										"price": "$8.99",
+										"price": "$9.99",
 										"description": "Filled with house made corned beef hash and melted cheddar cheese."
 									},
 									{
@@ -84,8 +84,8 @@
 									{
 										"title": "Build Your Own Omelette",
 										"custom": true,
-										"price": "$7.99",
-										"description": "Three eggs, one meat, two vegetables and one cheese served with house toast and home fries or tossed salad. Add extra meat for $2, extra cheese $1.50, Avocado $1.99 vegetable $1, extra egg $0.99",
+										"price": "$8.99",
+										"description": "Three eggs, one meat, two vegetables and one cheese served with house toast and home fries or tossed salad. Add extra meat for $2, extra cheese $1.25, Avocado $1.99 vegetable $1, extra egg $0.99",
 										"options": [
 										{
 											"title": "Choose Veg",
@@ -127,7 +127,7 @@
 						{
 							"category": {
 								"title": "Benedict",
-								"description": "All New Yorker Benedict’s are made with farm fresh eggs and served with house made home fries or tossed salad. Substitute home fries for Fruit Salad $1.00",
+								"description": "All New Yorker Benedict’s are made with farm fresh eggs and served with house made home fries or tossed salad. Substitute home fries for Fruit Salad $1.50",
 								"stations": [
 									{"letter": "7",
 										"color": "purple"
@@ -143,16 +143,16 @@
 									{
 										"title": "4th Avenue",
 										"price": "$9.99",
-										"description": "Two poached farm fresh eggs served over our toasted english muffin with Smoked Salmon, scallions and our lemon zest hollandaise sauce."
+										"description": "Two poached farm fresh eggs served over our toasted English muffin with Smoked Salmon, scallions and our lemon zest hollandaise sauce."
 									},
 									{
 										"title": "The Broadway",
 										"price": "$7.99",
-										"description": "Two poached farm fresh eggs served over our toasted english muffin with Canadian bacon and topped with our lemon zest Hollandaise Sauce."
+										"description": "Two poached farm fresh eggs served over our toasted English muffin with Canadian bacon and topped with our lemon zest Hollandaise Sauce."
 									},
 									{
 										"title": "Times Square",
-										"price": "$8.99",
+										"price": "$9.99",
 										"description": "Two poached farm fresh eggs topped with shredded slow roasted BBQ pulled pork. Served over toasted English muffin and drizzled with our lemon zest hollandaise sauce."
 									},
 									{
@@ -187,7 +187,7 @@
 						{
 							"category": {
 								"title": "Pancakes",
-								"description": "All pancakes are served with vermont maple syrup, whipped cream and butter. Add chocolate chips, pecans, banana, blueberry, strawberry, nutella, roasted coconut, ($1.25) each.",
+								"description": "All pancakes are served with maple syrup, whipped cream and butter. Add chocolate chips, pecans, banana, blueberry, strawberry, nutella, roasted coconut, ($1.25) each.",
 								"stations": [
 									{"letter": "2",
 										"color": "red"

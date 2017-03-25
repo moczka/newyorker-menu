@@ -16,7 +16,7 @@
   color: inherit;
   display: block;
   float: right;
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: #BF390B;
   font-weight: bolder;
 }
@@ -28,8 +28,8 @@
 /* Meal description! */
 .meal > p{
   text-indent: 5px;
-  font-size: 1.3em;
-  line-height: 98%;
+  font-size: 1.4em;
+  line-height: 95%;
   clear: left;
 }
 

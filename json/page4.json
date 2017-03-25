@@ -32,6 +32,16 @@
 										"description": "Served with marinara sauce."
 									},
 									{
+										"title": "Chicken Wings",
+										"description": "Served with carrots, celery and bleu cheese.",
+										"price": "$8.99"
+									},
+									{
+										"title": "Honey BBQ Chicken Wings",
+										"description": "Served with carrots, celery and bleu cheese.",
+										"price": "$8.99"
+									},
+									{
 										"title": "Buffalo Chicken Wings",
 										"description": "Served with carrots, celery and bleu cheese.",
 										"price": "$8.99"
@@ -42,13 +52,8 @@
 										"price": "$8.99"
 									},
 									{
-										"title": "Fried Polenta Parmesan",
-										"price": "$6.99",
-										"description": "Served with garlic aioli."
-									},
-									{
 										"title": "Chicken Quesadilla",
-										"price": "$8.99",
+										"price": "$9.99",
 										"description": "Served with sour cream, salsa and guacuamole."
 									},
 									{
@@ -68,7 +73,7 @@
 									},
 									{
 										"title": "House Made Chips",
-										"price": "$2.49"
+										"price": "$2.99"
 									}
 								],
 								"images": [],
@@ -107,10 +112,6 @@
 									{
 										"title": "Sea basket, fried shrimp, haddock tips served with coleslaw and fries",
 										"price": "$13.99"
-									},
-									{
-										"title": "Fried calamari served with coleslaw and fries",
-										"price": "$9.99"
 									}
 								],
 								"images": [],
@@ -240,17 +241,9 @@
 								],
 								"meals": [
 									{
-										"title": "S.Pellegrino",
-										"price": "$2.99"
-									},
-									{
-										"title": "Coconut Water",
-										"price": "$2.99"
-									},
-									{
-										"title": "Natural Juice",
-										"price": "$2.95(M) - $3.95(L)",
-										"description": "Orange, apple, cranberry, pineapple or tomato juice."
+										"title": "Juice",
+										"price": "$2.49(M) - 2.99(L)",
+										"description": "Orange, apple, cranberry, pineapple, tomato juice."
 									},
 									{
 										"title": "Iced Coffee",
@@ -258,7 +251,7 @@
 									},
 									{
 										"title": "Hot Chocolate",
-										"price": "$2.49"
+										"price": "$2.99"
 									},
 									{
 										"title": "Hot Tea",
@@ -267,10 +260,6 @@
 									{
 										"title": "Fountain Drinks",
 										"price": "$2.25"
-									},
-									{
-										"title": "Lemonade",
-										"price": "$3.25"
 									},
 									{
 										"title": "Iced Tea",

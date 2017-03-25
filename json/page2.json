@@ -7,7 +7,7 @@
 						{
 							"category": {
 								"title": "French Toast",
-								"description": "Sliced challah bread dipped in our homemade egg batter, grilled to perfection. Served with Vermont maple syrup and butter. Substitute gluten-free bread ($2.00).",
+								"description": "Sliced Texas bread dipped in our homemade egg batter, grilled to perfection. Served with maple syrup and butter. Substitute gluten-free bread ($2.00).",
 								"stations": [
 									{"letter": "N",
 										"color": "yellow"
@@ -22,17 +22,17 @@
 								"meals": [
 									{
 										"title": "Bonjour",
-										"price": "$7.99",
-										"description": "Our signature french toast."
+										"price": "",
+										"description": "Our signature french toast. Short(2) $5.99 Full(3) $7.99"
 									},
 									{
 										"title": "Le Petit Pain Grille",
-										"price": "$8.99",
+										"price": "$9.99",
 										"description": "Topped with roasted coconut, fresh diced pineapple and melted mascarpone cheese."
 									},
 									{
 										"title": "Paris",
-										"price": "$8.99",
+										"price": "$9.99",
 										"description": "Topped with melted mascarpone cheese, roasted pears and house made caramel sauce."
 									},
 									{
@@ -62,7 +62,7 @@
 						{
 							"category": {
 								"title": "Breakfast Sandwiches",
-								"description": "",
+								"description": "All breakfast sandwiches are served with homefries.",
 								"stations": [
 									{"letter": "S",
 										"color": "green"
@@ -74,18 +74,24 @@
 								"meals": [
 									{
 										"title": "Egg and Cheese Sandwich",
-										"price": "$4.99",
+										"price": "$5.99",
 										"description": "Choose any one meat to finish your sandwich. Choose bacon, sausage, turkey, ham or smoked salmon for $2.50 more."
 									},
 									{
 										"title": "The Empire",
-										"price": "$6.99",
-										"description": "Two eggs omelette style, melted swiss cheese, asparagus, zucchini, and bacon."
+										"price": "$7.99",
+										"description": "Two eggs omelet style, melted swiss cheese, asparagus, zucchini, and bacon on a brioche bun."
 									},
 									{
 										"title": "Signature Sandwich",
-										"price": "$7.99",
+										"price": "$8.99",
+										"shared": true,
 										"description": "Apple wood smoked bacon, egg homemade corned beef hash, melted cheddar cheese and crispy home fries all piled high on a brioche bun."
+									},
+									{
+										"title": "Burrito",
+										"price": "$8.99",
+										"description": "Sausage, scrambled eggs, black beans, salsa, sour cream, guacamole and melted cheddar cheese in a wheat wrap."
 									},
 									{
 										"title": "The Lox",
@@ -95,8 +101,8 @@
 									},
 									{
 										"title": "Bruschetta (v)",
-										"price": "$7.99",
-										"description": "Egg, avocado, balsamic glaze, sliced tomatoes, extra virgen olive oil, garlic aioli and fresh basil"
+										"price": "$8.99",
+										"description": "Egg, avocado, balsamic glaze, sliced tomatoes, extra virgen olive oil, garlic aioli and fresh basil on a marble rye."
 									}
 								],
 								"images": [
@@ -145,12 +151,13 @@
 									{
 										"title": "Belgian Waffle",
 										"price": "$6.99",
-										"description": "Served with Vermont maple syrup and butter. Add fruit to your waffle $1.25 each. (Banana, strawberry, blueberry, roasted coconut, pecans, chocolate chips, pineapple and nutella)."
+										"description": "Served with maple syrup and butter. Add fruit to your waffle $1.25 each. (Banana, strawberry, blueberry, roasted coconut, pecans, chocolate chips, pineapple and nutella)."
 									},
 									{
-										"title": "‘Loaded’ Home Fries",
-										"price": "$9.95",
-										"description": "Home fries tossed with mushrooms, sausage, peppers, sun dried tomatoes and onions, with melted cheddar cheese topped with two eggs any style and a lemon zest hollandaise sauce."
+										"title": "Chicken & Waffle",
+										"price": "$9.99",
+										"description": "Crispy fried chicken wings served on a belgian waffle.",
+										"special": true
 									},
 									{
 										"title": "Huevos Rancheros",
@@ -158,15 +165,19 @@
 										"description": "Two eggs any style topped w/onions, peppers, melted  cheddar cheese. With black beans, sausa, sour cream, guacamole and tortillas on the side."
 									},
 									{
-										"title": "Early Bird",
-										"price": "$5.99",
-										"description": "6AM to 8AM ONLY, M-F. Two eggs any style, bacon, sausage or ham, served with a choice of home fries or tossed salad. Served with house toast and a cup of coffee.",
-										"special": true
+										"title": "‘Loaded’ Home Fries",
+										"price": "$10.99",
+										"description": "Home fries tossed with mushrooms, sausage, peppers, sun dried tomatoes and onions, with melted cheddar cheese topped with two eggs any style and a lemon zest hollandaise sauce."
 									},
 									{
 										"title": "Flat Iron Steak",
-										"price": "$9.99",
+										"price": "$10.99",
 										"description": "6oz flat iron steak, 3 eggs any style, home fries or tossed salad served with choice of toast."
+									},
+									{
+										"title": "The Lox Platter",
+										"price": "$11.99",
+										"description": "Smoked salmon, bagel with cream cheese, sliced tomatoes, red sliced onions, capers, and organic greens."
 									}
 								],
 								"images": [
@@ -196,12 +207,17 @@
 									{
 										"title": "The Grand Slam!",
 										"special": true,
-										"price": "$8.99",
-										"description": "Our best special offer! 2 eggs any style, 2 bacon strips, 2 sausage with a choice of 2 slices of french toast or 2 pancakes, home fries or tossed salad and a cup of coffee."
+										"price": "$9.99",
+										"description": "Our best special offer! 3 eggs any style, 2 bacon strips, 2 sausage with a choice of 2 slices of french toast or 2 pancakes, home fries or tossed salad and a cup of coffee only."
 									},
 									{
-										"title": "Custom Breakfast",
-										"price": "$7.99",
+										"title": "Hungry Man",
+										"price": "$5.99",
+										"description": "Two farm fresh eggs any style, served with house toast and home fries or tossed salad."
+									},
+									{
+										"title": "Truck Guy",
+										"price": "$8.99",
 										"description": "Three eggs any style choose bacon, signature sausage or ham, served with house toast and home fries or tossed salad."
 									}
 								],
@@ -242,7 +258,15 @@
 									},
 									{
 										"title": "Yogurt Parfait",
-										"price": "$4.99"
+										"price": "$5.79"
+									},
+									{
+										"title": "Vermont Maple Syrup",
+										"price": "$1.99"
+									},
+									{
+										"title": "Home Fries",
+										"price": "$3.99"
 									},
 									{
 										"title": "Muffins",
@@ -266,7 +290,7 @@
 									},
 									{
 										"title": "Oatmeal",
-										"price": "$2.99"
+										"price": "$3.25"
 									},
 									{
 										"title": "Toasts",

@@ -43,6 +43,10 @@
   float: left;
   margin-bottom: 2px;
 }
+.category-description{
+  font-size: 1.4em;
+  line-height: 95%;
+}
 
 
 /* IPAD screen size */

@@ -1,6 +1,6 @@
 window.onload = function(){
 
-    var json_data = $.get('json/page1.json'),
+    var json_data = $.get('json/page3.json'),
         container = $('#app'),
         data,
         templates = {

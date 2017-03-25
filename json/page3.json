@@ -6,78 +6,6 @@
 					"categories": [
 						{
 							"category": {
-								"title": "Hot Sandwiches",
-								"description": "All Sandwiches are served with a choice of house made chips or coleslaw and pickles. Choice of one dipping sauce. Substitute house made chips for fries $2.00 or sweet potato fries for $2.50 or onion rings for $3.00",
-								"stations": [
-									{"letter": "1",
-										"color": "red"
-									},
-									{"letter": "Q",
-										"color": "yellow"
-									},
-									{"letter": "C",
-										"color": "blue"
-									}
-								],
-								"meals": [
-									{
-										"title": "Cubano",
-										"price": "$8.99",
-										"description": "Seasoned pulled pork, Virginia ham, Swiss, Dill pickles, mojo mustard on a pressed baguette."
-									},
-									{
-										"title": "Goudapest",
-										"price": "$8.99",
-										"description": "Chicken breast, gouda cheese, caramelized onion, pesto, pressed on house rustic."
-									},
-									{
-										"title": "Carolina Pork",
-										"price": "$8.99",
-										"description": "Smoked pulled pork, bbq sauce, poblano-kale slaw on a brioche bun."
-									},
-									{
-										"title": "Melted Tuna",
-										"price": "$8.99",
-										"description": "Chunk white tuna, tomato, Swiss cheese, pressed on house rustic.*",
-										"shared": true
-									},
-									{
-										"title": "The Gloucester",
-										"price": "$9.99",
-										"description": "Fried haddock, Poblano slaw and house made tartar sauce on a brioche bun."
-									},
-									{
-										"title": "Pastrami Reuben",
-										"price": "$9.99",
-										"description": "Shaved pastrami, Swiss cheese, sauerkraut, thousand island dressing, pressed on rye.",
-										"shared": true
-									},
-									{
-										"title": "Try One!",
-										"special": true,
-										"description": "One of our signature dipping sauces: chipotle aioli, house dressing, avocado ranch, poblano ranch, BBQ, garlic aioli and honey dijon. (Extra $0.50)"
-									}
-								],
-								"images": [
-									{
-										"src": "assets/raster/cubano_hot.png",
-										"className": "meal-image-two"
-									}
-								],
-								"note": {},
-								"position": {
-									"row": 1,
-									"col": 1,
-									"full": false
-								}
-							}
-						}
-					]
-				},
-				{
-					"categories": [
-						{
-							"category": {
 								"title": "Cold Sandwhiches",
 								"description": "All Sandwiches are served with a choice of house made chips or coleslaw and pickles. Choice of one dipping sauce. Substitute house made chips for fries $2.00 or sweet potato fries for $2.50 or onion rings for $3.00",
 								"stations": [
@@ -94,28 +22,23 @@
 								"meals": [
 									{
 										"title": "So. Cal",
-										"price": "$8.99",
+										"price": "$9.99",
 										"description": "House roasted turkey, bacon, avocado, mojo mustard on a brioche bun."
 									},
 									{
-										"title": "Union Club",
-										"price": "$8.99",
-										"description": "All natural chicken salad, bacon, Vermont cheddar, leaf lettuce, chipotle aioli on ciabatta."
+										"title": "Caprese Sandwich",
+										"price": "$9.99",
+										"description": "Fresh basil, sliced tomato, balsamic glaze, olive oil, mozzarella served on a ciabatta bread."
 									},
 									{
-										"title": "-v-Caprese",
-										"price": "$8.99",
-										"description": "Fresh mozzarella, ripe tomato, fresh basil, extra vergin olive oil, balsamic glaze on ciabatta."
+										"title": "Triple Decker Ham & Cheese",
+										"price": "$9.99",
+										"description": "Our Triple decker sandwich made with ham, cheese, apple wood-smoked bacon, mayo, lettuce and tomatoes on a marble rye bread."
 									},
 									{
-										"title": "Spicy Tuna Maki",
-										"price": "$8.99",
-										"description": "Sushi inspired tuna salad, dried nori, cucumber, avocado, cusabi aioli served on whole wheat bread."
-									},
-									{
-										"title": "Turkey Club",
-										"price": "$8.99",
-										"description": "Our Triple decker Sandwich made with House made roasted turkey, sliced tomatoes, lettuce, apple wood smoked bacon and mayo served on choice of bread."
+										"title": "Triple Decker Turkey Club",
+										"price": "$9.99",
+										"description": "Our triple decker Sandwich made with House made roasted turkey, sliced tomatoes, lettuce, apple wood-smoked bacon and mayo served on a marble rye bread."
 									}
 								],
 								"images": [
@@ -132,15 +55,7 @@
 									"full": false
 								}
 							}
-						}
-					]
-				}
-			]
-		},
-		{
-			"cols": [
-				{
-					"categories": [
+						},
 						{
 							"category": {
 								"title": "Wraps &amp; Burgers",
@@ -160,16 +75,18 @@
 									{
 										"title": "Chicken Caesar Wrap",
 										"price": "$8.99",
+										"shared": true,
 										"description": "Grilled chicken, romaine lettuce, Caesar dressing with parmesan and croutons."
 									},
 									{
-										"title": "California Turkey Cobb Wrap",
+										"title": "California Wrap",
 										"price": "$9.99",
 										"description": "Roasted turkey, hard boiled eggs, bacon, bleu cheese, sweet onion, avocado, olives, romaine letuce and tomatoes."
 									},
 									{
 										"title": "Buffalo Chicken Wrap",
 										"price": "$8.99",
+										"shared": true,
 										"description": "Buffalo crispy chicken, lettuce, tomato and crumbled blue cheese."
 									},
 									{
@@ -178,26 +95,37 @@
 										"description": "Grilled chicken, feta, cucumbers, olives, lettuce, tomato and onion with Greek dressing."
 									},
 									{
-										"title": "Classic Burger",
-										"price": "$6.99",
-										"description": "½ lb Burger served on brioche bread with lettuce, onions and tomato.",
+										"title": "Classic Hamburger",
+										"price": "$7.99",
+										"description": "Hamburger patty served on brioche bread with lettuce, onions and tomato.",
 										"shared": true
 									},
 									{
 										"title": "Heart Attack Burger",
-										"price": "$9.99",
+										"price": "$10.99",
 										"description": "½ lb Burger fried egg apple wood-smoked bacon, melted cheddar cheese, corned beef hash, lettuce and tomatoes."
 									},
 									{
-										"title": "Lamb Burger",
-										"price": "$9.99",
-										"description": "Served on a brioche bun with spinach, red sliced onions, feta cheese, tomato, tzatziki sauce.",
-										"shared": true
+										"title": "Bacon Cheese Burger Club",
+										"price": "$10.99",
+										"shared": true,
+										"description": "Triple decker bacon cheese burger club, lettuce, tomatoes, mayo on a marble rye."
 									},
 									{
 										"title": "BBQ Burger",
-										"price": "$8.99",
+										"price": "$10.99",
 										"description": "½ lb topped with melted cheddar cheese, onions rings, bacon and BBQ sauce."
+									},
+									{
+										"title": "Cheese Burger",
+										"price": "$8.99",
+										"description": "Hamburger patty served on brioche bread with lettuce, onions and tomato with melted America cheese.",
+										"shared": true
+									},
+									{
+										"title": "Bacon Cheese Burger",
+										"price": "$9.99",
+										"description": "Hamburger patty served with lettuce, tomato, onions, bacon and melted American cheese."
 									}
 								],
 								"images": [],
@@ -213,6 +141,92 @@
 				},
 				{
 					"categories": [
+						{
+							"category": {
+								"title": "Hot Sandwiches",
+								"description": "",
+								"stations": [
+									{"letter": "1",
+										"color": "red"
+									},
+									{"letter": "Q",
+										"color": "yellow"
+									},
+									{"letter": "C",
+										"color": "blue"
+									}
+								],
+								"meals": [
+									{
+										"title": "Cubano",
+										"price": "$9.99",
+										"description": "Seasoned pulled pork, Virginia ham, Swiss, Dill pickles, mojo mustard on a pressed baguette."
+									},
+									{
+										"title": "Goudapest",
+										"price": "$9.99",
+										"description": "Chicken breast, gouda cheese, caramelized onion, pesto, pressed on house rustic."
+									},
+									{
+										"title": "Carolina Pork",
+										"price": "$9.99",
+										"shared": true,
+										"description": "Smoked pulled pork, bbq sauce, poblano-kale slaw on a brioche bun."
+									},
+									{
+										"title": "Steak Bomb",
+										"price": "$9.99",
+										"description": "Shaved steak, green peppers, onions, mashrooms, melted America cheese on sub bread."
+									},
+									{
+										"title": "Melted Tuna",
+										"price": "$9.99",
+										"description": "Chunk white tuna, tomato, Swiss cheese, pressed on house rustic.*",
+										"shared": true
+									},
+									{
+										"title": "The Gloucester",
+										"price": "$9.99",
+										"description": "Fried haddock, lettuce and tomatoes and house made tartar sauce on a brioche bun."
+									},
+									{
+										"title": "Pastrami Reuben",
+										"price": "$9.99",
+										"description": "Shaved pastrami, Swiss cheese, sauerkraut, thousand island dressing, pressed on rye.",
+										"shared": true
+									},
+									{
+										"title": "Grilled Cheese",
+										"price": 6.25,
+										"description": "Made on a scali bread with melted America cheese."
+									},
+									{
+										"title": "BLT",
+										"price": 6.99,
+										"shared": true,
+										"description": "Bacon, lettuce, tomato and mayo on a scali bread."
+									},
+									{
+										"title": "Hot Dog",
+										"price": 6.99,
+										"description": "Served with french fries."
+									}
+
+								],
+								"images": [
+									{
+										"src": "assets/raster/cubano_hot.png",
+										"className": "meal-image-two"
+									}
+								],
+								"note": {},
+								"position": {
+									"row": 1,
+									"col": 1,
+									"full": false
+								}
+							}
+						},
 						{
 							"category": {
 								"title": "Salads",
@@ -231,18 +245,18 @@
 								"meals": [
 									{
 										"title": "Garden Salad",
-										"price": "$5.99",
+										"price": "$6.99",
 										"description": "Organic greens, cucumbers, grape tomatoes, asparagus, red onions, carrots balsamic dressing."
 									},
 									{
 										"title": "Caesar Salad",
-										"price": "$6.99",
+										"price": "$7.99",
 										"description": "Chopped romaine lettuce, parmesan cheese, croutons tossed in creamy Caesar dressing.",
 										"shared": true
 									},
 									{
 										"title": "Harvest Salad",
-										"price": "$7.99",
+										"price": "$8.99",
 										"description": "Organic greens, goat cheese, dried cranberries, glazed walnuts tossed with balsamic."
 									},
 									{
@@ -277,6 +291,20 @@
 								}
 							}
 						}
+					]
+				}
+			]
+		},
+		{
+			"cols": [
+				{
+					"categories": [
+
+					]
+				},
+				{
+					"categories": [
+
 					]
 				}
 			]
