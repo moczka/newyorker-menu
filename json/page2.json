@@ -74,7 +74,7 @@
 								"meals": [
 									{
 										"title": "Egg and Cheese Sandwich",
-										"price": "$5.99",
+										"price": "$6.29",
 										"description": "Choose any one meat to finish your sandwich. Choose bacon, sausage, turkey, ham or smoked salmon for $2.50 more."
 									},
 									{
@@ -212,7 +212,7 @@
 									},
 									{
 										"title": "Hungry Man",
-										"price": "$5.99",
+										"price": "$6.49",
 										"description": "Two farm fresh eggs any style, served with house toast and home fries or tossed salad."
 									},
 									{
