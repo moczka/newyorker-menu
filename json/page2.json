@@ -26,6 +26,11 @@
 										"description": "Our signature french toast. Short(2) $5.99 Full(3) $7.99"
 									},
 									{
+										"title": "Le Scali",
+										"price": "",
+										"description": "Our signature french toast with Scali bread. Short(2) $4.99 Full(3) $6.99"
+									},
+									{
 										"title": "Le Petit Pain Grille",
 										"price": "$9.99",
 										"description": "Topped with roasted coconut, fresh diced pineapple and melted mascarpone cheese."
@@ -75,7 +80,7 @@
 									{
 										"title": "Egg and Cheese Sandwich",
 										"price": "$6.29",
-										"description": "Choose any one meat to finish your sandwich. Choose bacon, sausage, turkey, ham or smoked salmon for $2.50 more."
+										"description": "Choose any one meat to finish your sandwich. Choose bacon, sausage, turkey, or ham. Substitute smoked salmon for $2.50 more."
 									},
 									{
 										"title": "The Empire",
@@ -208,7 +213,7 @@
 										"title": "The Grand Slam!",
 										"special": true,
 										"price": "$9.99",
-										"description": "Our best special offer! 3 eggs any style, 2 bacon strips, 2 sausage with a choice of 2 slices of french toast or 2 pancakes, home fries or tossed salad and a cup of coffee only."
+										"description": "Our best special offer! 3 eggs any style, 2 bacon strips, 2 sausage with a choice of 2 slices of french toast or 2 pancakes, home fries or tossed salad and a cup of coffee only. No Substitution."
 									},
 									{
 										"title": "Hungry Man",
@@ -217,8 +222,8 @@
 									},
 									{
 										"title": "Truck Guy",
-										"price": "$8.99",
-										"description": "Three eggs any style choose bacon, signature sausage or ham, served with house toast and home fries or tossed salad."
+										"price": "$7.90",
+										"description": "Two eggs any style choose bacon, signature sausage or ham, served with house toast and home fries or tossed salad."
 									}
 								],
 								"images": []

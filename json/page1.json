@@ -82,21 +82,26 @@
 										"description": "Broccoli, pepper, tomato, onion, spinach, asparagus, and Swiss cheese."
 									},
 									{
+										"title": "Western Omelet",
+										"price": "$8.99",
+										"description": "Bell peppers, onions, ham, American cheese."
+									},
+									{
 										"title": "Build Your Own Omelette",
 										"custom": true,
-										"price": "$8.99",
-										"description": "Three eggs, one meat, two vegetables and one cheese served with house toast and home fries or tossed salad. Add extra meat for $2, extra cheese $1.25, Avocado $1.99 vegetable $1, extra egg $0.99",
+										"price": "$5.99",
+										"description": "Three eggs Omelette style with house toast and home fries or tossed salad.",
 										"options": [
 										{
-											"title": "Choose Veg",
+											"title": "Choose Veg (0.99)",
 											"description": "Tomato, Mushrooms, Asparagus, Carrots, Broccoli, Spinach, Onions and Peppers"
 										},
 										{
-											"title": "Choose Cheese",
+											"title": "Choose Cheese (0.99)",
 											"description": "American, Cheddar, Feta, Swiss, Pepper Jack, Gouda, Goat Cheese, Mozarella."
 										},
 										{
-											"title": "Choose Meat",
+											"title": "Choose Meat (1.99)",
 											"description": "Bacon, Ham, Sausage, Corn-beef Hash, Steak, Turkey, Smoked Salmon, Chicken."
 										}
 										]
