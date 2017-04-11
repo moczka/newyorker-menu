@@ -158,6 +158,9 @@
 									},
 									{
 										"title": "Pastrami &amp; Swiss"
+									},
+									{
+										"title": "Grilled Cheese Sandwich"
 									}
 								],
 								"images": [
@@ -191,20 +194,13 @@
 								],
 								"meals": [
 									{
-										"title": "Tomato Basil",
-										"price": "Cup $3.95 or Bowl $4.95"
-									},
-									{
-										"title": "Chicken Noodle",
-										"price": "Cup $3.95 or Bowl $4.95"
-									},
-									{
-										"title": "Clam Choudar",
-										"price": "Cup $4.95 or Bowl $5.95"
-									},
-									{
 										"title": "Meat Chili",
 										"price": "Cup $4.95 or Bowl $5.95"
+									},
+									{
+										"title": "Soup of The Day",
+										"description": "Ask the server for today's soup of the day.",
+										"price": "Cup $3.95 or Bowl $4.95"
 									}
 								],
 								"images": [],

@@ -66,7 +66,7 @@ li.meal-image{
 .meal-image-three +li+li, .meal-image-three+li+li+li{
   width: 50%;
 }
-.meal-image-full + li+li, .meal-image-full+li+li+li, .meal-image-full+li+li+li+li, .meal-image-full+li+li+li+li+li{
+.meal-image-full + li+li, .meal-image-full+li+li+li, .meal-image-full+li+li+li+li, .meal-image-full+li+li+li+li+li, .meal-image-full+li+li+li+li+li+li{
   width: 50%;
 }
 
@@ -130,7 +130,7 @@ li.meal-is-shared{
     .meal-image-two + li+li, .meal-image-two +li{
       width: 100%;
     }
-    .meal-image-full +li+li, .meal-image-full +li, .meal-image-full+li+li+li{
+    .meal-image-full +li+li, .meal-image-full +li, .meal-image-full+li+li+li, .meal-image-full+li+li+li+li+li+li{
       width: 100%;
     }
 

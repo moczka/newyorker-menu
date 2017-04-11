@@ -1,0 +1,155 @@
+<!Doctype>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Kumar+One" rel="stylesheet">
+  <link rel="stylesheet" href="styles/pages.css" type="text/css" />
+  <link rel="stylesheet" href="styles/modules/banner/top-banner.css" type="text/css" />
+  <link rel="stylesheet" href="styles/modules/category/category.css" type="text/css" />
+  <link rel="stylesheet" href="styles/modules/meal/meal.css" type="text/css" />
+  <link rel="stylesheet" href="styles/modules/footer/footer.css" type="text/css" />
+  <link rel="stylesheet" href="styles/modules/navigator/controller.css" type="text/css"  />
+  <link rel="stylesheet" href="styles/print.css" type="text/css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <title>New Yorker Menu</title>
+</head>
+<body>
+  <header id="top-banner" class="top-banner">
+    <img class="lady-liberty" src="assets/svg/liberty_1.svg" />
+    <img class="brooklyn-bridge" src="assets/svg/brooklyn_bridge.svg" />
+    <div class="top-banner-stars"></div>
+  </header>
+
+  <!-- TEMPLATES -->
+
+  <script id="rowTemplate" type="text/template">
+
+      <div class="row clearfix">
+
+          <div class="container clearfix <%= (row.className)? row.className: '' %>"></div>
+
+
+      </div>
+
+  </script>
+  <script id="colTemplate" type="text/template">
+
+      <% if(!col.full){ %>
+
+          <div class="col-md-2">
+
+              <!-- CATEGORY HERE -->
+              <div class="category-container">
+
+              </div>
+
+          </div>
+
+      <% }else{ %>
+
+        <div class="col-full">
+
+            <!-- CATEGORY HERE -->
+            <div class="category-container">
+
+            </div>
+
+        </div>
+
+      <% } %>
+
+
+  </script>
+  <script id="categoryTemplate" type="text/template">
+
+      <div class="category">
+        <% if(category.title){ %>
+          <header class="category-header clearfix">
+          <h2><%= category.title %></h2>
+            <% _.each(category.stations, function(station){ %>
+              <span class="station-letter <%= station.color %>"><%= station.letter %></span>
+            <% }); %>
+          </header>
+        <% } %>
+
+        <% if(category.description){ %>
+          <p><%= category.description %></p>
+        <% } %>
+
+        <ul class="category-list clearfix">
+
+          <% if(category.images.length>0){  %>
+            <li class="meal-image <%=category.images[0].className %>">
+              <img class="meal-image-loading" src="<%= category.images[0].src %>" alt="Menu image">
+            </li>
+          <% } %>
+
+        </ul>
+
+      </div>
+
+  </script>
+  <script id="mealTemplate" type="text/template">
+
+        <li class="<%= (meal.shared)? 'meal-is-shared' : '' %>">
+            <div class="meal">
+              <header class="meal-header clearfix">
+                <h3 class="meal-title <%= meal.special? 'meal-special' : '' %>"><%= meal.title %></h3>
+                <span class="meal-price"><%= meal.price %></span>
+              </header>
+              <div class="meal-header hidden">
+                <input type="text" class="meal-title edit" value="<%= meal.title %>">
+                <input type="text" class="meal-price edit" value="<%= meal.price %>">
+              </div>
+              <% if(meal.description){ %>
+                  <p><%= meal.description %></p>
+              <% } %>
+              <% if(meal.custom){ %>
+                <ul class="meal-custom clearfix">
+                  <% _.each(meal.options, function(option){ %>
+                      <li style="width: <%= (100/meal.options.length)+'%'%>">
+                          <h3><%= option.title %></h3>
+                          <p><%= option.description %></p>
+                      </li>
+                  <% }); %>
+                </ul>
+              <% } %>
+            </div>
+        </li>
+
+  </script>
+
+
+  <!-- END OF TEMPLATES -->
+
+  <main class="main-section">
+
+    <div id="app">
+        <!-- CONTENT APP GO HERE -->
+    </div>
+
+    <footer class="footer-skyline">
+      <img src="assets/svg/new_york_skyline.svg"/>
+      <div class="footer-warning hidden">
+        <h5>Consuming undercooked or raw foods may increase the risk of foodborne illness. Before placing your order, please notify us of any food related allergies you may have.</h5>
+      </div>
+    </footer>
+
+  </main>
+
+  <nav class="page-nav">
+      <a class="nav-hover"></a>
+      <div class="nav-bar clearfix">
+        <div class="controls">
+          <a class="btn btn-print">Print</a>
+          <a class="btn">Back</a>
+          <a class="btn">Next</a>
+        </div>
+      </div>
+  </nav>
+
+</body>
+</html>
