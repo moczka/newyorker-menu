@@ -34,11 +34,6 @@
                 "price": "$7.99"
             },
             {
-                "title": "BLT ",
-                "description": " Made on scali bread w/ letuce, mayo, bacon and tomatoes, served w/ chips ",
-                "price": "$8.99"
-            },
-            {
                 "title": "Chicken wings (  buffalo, plain or BBQ )",
                 "description":  "Served w/ carrots and celure  ",
                 "price": "$8.99"
@@ -82,7 +77,7 @@
 						{
 							"category": {
 								"title": "Wraps",
-								"description": "All wraps are served with house made chips. Substitude for french fries or onion rings ($ 2.50)",
+								"description": "All wraps are a whole wheat wrap with house made chips. Substitude for french fries or onion rings ($ 2.50)",
 								"stations": [
 									{"letter": "4",
 										"color": "green"
@@ -96,17 +91,17 @@
 								],
 								"meals": [
 									{
-										"title": "BLT Wraps",
+										"title": "California Wrap",
 										"price": "$9.99",
-                                        "description": "Bacon, mayo, lettuce, diced tomatoes."
+                                        "description": "Bacon, mayo, lettuce, avocado and diced tomatoes."
 									},
 									{
-										"title": "Turkey Wrap",
+										"title": "Turkey",
 										"price": "$9.99",
                                         "description": "Lettuce, mayo, turkey and diced tomatoes."
 									},
 									{
-										"title": "Tuna Wrap",
+										"title": "Tuna",
 										"price": "$9.99",
                                         "description": "fresh tuna, lettuce, mayo and diced tomatoes."
 									},
