@@ -4,7 +4,7 @@
 .meal-title{
   font-family: 'Kumar One', cursive;
   color: inherit;
-  font-size: 1.2em;
+  font-size: 1.5em;
   display: inline-block;
   width: auto;
   padding: 0;
@@ -28,7 +28,7 @@
 /* Meal description! */
 .meal > p{
   text-indent: 5px;
-  font-size: 1.4em;
+  font-size: 1.8em;
   line-height: 95%;
   clear: left;
 }

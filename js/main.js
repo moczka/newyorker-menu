@@ -50,8 +50,8 @@ window.onload = function(){
 
           if(target.innerHTML === "Next"){
 
-            currentPage++;
-            json_data = $.get(pagesJSON[currentPage % pagesJSON.length]);
+            currentPage = (currentPage += 1) % pagesJSON.length;
+            json_data = $.get(pagesJSON[currentPage]);
             json_data.then(function(){
               data = json_data.responseJSON;
               attach();
@@ -60,9 +60,10 @@ window.onload = function(){
             updateActivePage(currentPage);
           }else if(target.innerHTML === "Back"){
 
-            currentPage--;
+            currentPage -= 1;
             currentPage = (currentPage < 0)? 0: currentPage;
-            json_data = $.get(pagesJSON[currentPage % pagesJSON.length]);
+            currentPage = currentPage % pagesJSON.length;
+            json_data = $.get(pagesJSON[currentPage]);
             json_data.then(function(){
               data = json_data.responseJSON;
               attach();
