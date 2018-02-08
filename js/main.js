@@ -10,7 +10,7 @@ window.onload = function(){
           meal: _.template($('#mealTemplate').html())
         },
         currentPage = getCurrentPage() || 0,
-        pagesJSON = ["json/page1.json", "json/page2.jsaon", "json/page3.json", "json/page4.json"],
+        pagesJSON = ["json/page1.json", "json/page2.json", "json/page3.json", "json/page4.json"],
         nav_controls = $('.controls');
 
         nav_controls.on('click', handleControls);
