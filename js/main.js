@@ -1,20 +1,20 @@
 window.onload = function(){
 
-    var json_data = $.get('json/latenight_menu.json'),
-        container = $('#app'),
+    var container = $('#app'),
         data,
+        json_data,
         templates = {
           col: _.template($('#colTemplate').html()),
           row: _.template($('#rowTemplate').html()),
           category: _.template($('#categoryTemplate').html()),
           meal: _.template($('#mealTemplate').html())
         },
-        currentPage = 0,
-        pagesJSON = ["json/page1.json", "json/page2.json", "json/page3.json", "json/page4.json"],
+        currentPage = getCurrentPage() || 0,
+        pagesJSON = ["json/page1.json", "json/page2.jsaon", "json/page3.json", "json/page4.json"],
         nav_controls = $('.controls');
 
         nav_controls.on('click', handleControls);
-
+        json_data = $.get(pagesJSON[currentPage]);
         json_data.then(function(){
           data = json_data.responseJSON;
           attach();
@@ -44,6 +44,7 @@ window.onload = function(){
         function handleControls(e){
 
           e.preventDefault();
+          let currentPage = getCurrentPage();
 
           var target = e.target;
 
@@ -56,7 +57,7 @@ window.onload = function(){
               attach();
               console.log(data);
             });
-
+            updateActivePage(currentPage);
           }else if(target.innerHTML === "Back"){
 
             currentPage--;
@@ -67,11 +68,10 @@ window.onload = function(){
               attach();
               console.log(data);
             });
-
+            updateActivePage(currentPage);
           }else{
             window.print();
           }
-
 
         }
 
@@ -118,6 +118,14 @@ window.onload = function(){
 
 
 
+        }
+
+        function getCurrentPage() {
+          const activePage = localStorage.getItem('activePage');
+          return Number(activePage);
+        }
+        function updateActivePage(page){
+          return localStorage.setItem('activePage', page.toString());
         }
 
 

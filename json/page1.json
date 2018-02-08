@@ -7,7 +7,7 @@
 						{
 							"category": {
 								"title": "Omelet",
-								"description": "All omelets are made with three farm fresh eggs and served with choice of toast and hand-cut home fries or tossed salad. Substitute home fries for fruit salad $1.50 Egg whites are available for an additional of $2.00\nBread options: Whole Wheat, Scali, Rye. Gluten-free add $2.00, English muffin, Bagel $0.59",
+								"description": "All omelets are made with three farm fresh eggs and served with a choice of toast and hand-cut home fries or tossed salad. Substitute home fries for fruit salad $1.50 Egg whites are available for an additional of $2.00\nBread options: Whole Wheat, Scali, Rye. Gluten-free add $2.00, English muffin, Bagel $0.59",
 								"stations": [
 									{"letter": "A",
 										"color": "blue"
@@ -23,7 +23,7 @@
 									{
 										"title": "Queens",
 										"price": "$9.99",
-										"description": "Slow roasted shredded pulled pork with peppers, onions, house made BBQ sauce and melted cheddar cheese."
+										"description": "Slow roasted shredded pulled pork with peppers, onions, drizzled BBQ sauce and melted cheddar cheese."
 									},
 									{
 										"title": "The Liberty",
@@ -37,7 +37,7 @@
 									},
 									{
 										"title": "Manhattan",
-										"price": "$8.99",
+										"price": "$9.99",
 										"description": "Our House-made chili and melted cheddar cheese, topped with sour cream."
 									}
 								],
@@ -73,17 +73,17 @@
 								"meals": [
 									{
 										"title": "Brooklyn",
-										"price": "$8.99",
-										"description": "Pepper, onions, salsa, avocado, pepper jack cheese and a side of sour cream."
+										"price": "$9.99",
+										"description": "Pepper, onions, avocado, pepper jack cheese and topped with salsa."
 									},
 									{
 										"title": "Central Park",
-										"price": "$8.99",
+										"price": "$9.99",
 										"description": "Broccoli, pepper, tomato, onion, spinach, asparagus, and Swiss cheese."
 									},
 									{
 										"title": "Western Omelet",
-										"price": "$8.99",
+										"price": "$9.99",
 										"description": "Bell peppers, onions, ham, American cheese."
 									},
 									{
@@ -93,15 +93,15 @@
 										"description": "Three eggs Omelette style with house toast and home fries or tossed salad.",
 										"options": [
 										{
-											"title": "Choose Veg (0.99)",
-											"description": "Tomato, Mushrooms, Asparagus, Carrots, Broccoli, Spinach, Onions and Peppers"
+											"title": "Choose Veg ($0.99)",
+											"description": "Tomato, Mushrooms, Asparagus, Broccoli, Spinach, Onions and Peppers"
 										},
 										{
-											"title": "Choose Cheese (0.99)",
-											"description": "American, Cheddar, Feta, Swiss, Pepper Jack, Gouda, Goat Cheese, Mozarella."
+											"title": "Choose Cheese ($0.99)",
+											"description": "American, Cheddar, Feta, Swiss, Pepper Jack, Mozarella."
 										},
 										{
-											"title": "Choose Meat (1.99)",
+											"title": "Choose Meat ($1.99)",
 											"description": "Bacon, Ham, Sausage, Corn-beef Hash, Steak, Turkey, Smoked Salmon, Chicken."
 										}
 										]
@@ -147,12 +147,12 @@
 								"meals": [
 									{
 										"title": "4th Avenue",
-										"price": "$9.99",
-										"description": "Two poached farm fresh eggs served over our toasted English muffin with Smoked Salmon, scallions and our lemon zest hollandaise sauce."
+										"price": "$10.99",
+										"description": "Two poached farm fresh eggs served over our toasted English muffin with Smoked Salmon, and our lemon zest hollandaise sauce."
 									},
 									{
 										"title": "The Broadway",
-										"price": "$8.29",
+										"price": "$8.99",
 										"description": "Two poached farm fresh eggs served over our toasted English muffin with Canadian bacon and topped with our lemon zest Hollandaise Sauce."
 									},
 									{
@@ -163,7 +163,7 @@
 									{
 										"title": "Rockefeller Benny",
 										"price": "$9.99",
-										"description": "Two poached eggs on homemade corned beef hash served on homemade corn bread topped with our own hollandaise sauce."
+										"description": "Two poached eggs on homemade corned beef hash served on a english muffin topped with our lemon zest Hollandaise Sauce."
 									},
 									{
 										"title": "The Bronx",
@@ -207,22 +207,17 @@
 								"meals": [
 									{
 										"title": "Butter Milk",
-										"price": "$6.99 (Full)",
+										"price": "$7.99 (Full)",
 										"description": "A delicious full stack of butter milk pancakes. Short stack of two for $4.99 or a single for $2.99"
 									},
 									{
-										"title": "Sweet Potato",
-										"price": "$7.99 (Full)",
-										"description": "A choice of two for $5.99, and one for $3.99"
-									},
-									{
-										"title": "Thunder Storm",
-										"price": "$9.99",
-										"description": "Pecans, roasted pears,melted mascarpone cheese, topped with homemade caramel sauce."
+										"title": "The Studio",
+										"price": "$10.99",
+										"description": "Pecans, blueberries, melted mascarpone cheese, topped with caramel sauce and yogurt."
 									},
 									{
 										"title": "The New Yorker Potato Pancakes (Latkes)",
-										"price": "Full (4) $7.95 - Short (3) $5.95",
+										"price": "Full (4) $8.99 - Short (3) $6.99",
 										"description": "Crispy shredded potato pancakes with a bit of onion and spice. Served with  sour cream and applesauce."
 									}
 								],

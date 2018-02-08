@@ -33,17 +33,7 @@
 									},
 									{
 										"title": "Chicken Wings",
-										"description": "Served with carrots, celery and bleu cheese.",
-										"price": "$8.99"
-									},
-									{
-										"title": "Honey BBQ Chicken Wings",
-										"description": "Served with carrots, celery and bleu cheese.",
-										"price": "$8.99"
-									},
-									{
-										"title": "Buffalo Chicken Wings",
-										"description": "Served with carrots, celery and bleu cheese.",
+										"description": "Choose any style: Buffalo, BBQ or honey BQQ.",
 										"price": "$8.99"
 									},
 									{
@@ -55,10 +45,15 @@
 										"title": "Chicken Quesadilla",
 										"price": "$9.99",
 										"description": "Served with sour cream, salsa and guacuamole."
+                  },
+                  {
+										"title": "Cheese Quesadilla",
+										"price": "$8.99",
+										"description": "Served with sour cream, salsa and guacuamole."
 									},
 									{
 										"title": "Hand Cut French fries",
-										"price": "$3.99",
+										"price": "$4.50",
 										"shared": true
 									},
 									{
@@ -83,45 +78,6 @@
 									"col": 1,
 									"full": false
 								}
-							}
-						},
-						{
-							"category": {
-								"title": "Sea Food",
-								"description": "",
-								"stations": [
-									{"letter": "4",
-										"color": "green"
-									},
-									{"letter": "Q",
-										"color": "yellow"
-									},
-									{"letter": "N",
-										"color": "orange"
-									}
-								],
-								"meals": [
-									{
-										"title": "Fried Shrimp served with coleslaw and fries",
-										"price": "$11.99"
-									},
-									{
-										"title": "Fried haddock tips served /w coleslaw and fries",
-										"price": "$10.99"
-									},
-									{
-										"title": "Sea basket, fried shrimp, haddock tips served with coleslaw and fries",
-										"price": "$13.99"
-									}
-								],
-								"images": [],
-								"note": {},
-								"position": {
-									"row": 2,
-									"col": 1,
-									"full": true
-								},
-								"full": true
 							}
 						}
 					]
@@ -195,12 +151,12 @@
 								"meals": [
 									{
 										"title": "Meat Chili",
-										"price": "Cup $4.95 or Bowl $5.95"
+										"price": "Cup $4.99 or Bowl $5.99"
 									},
 									{
 										"title": "Soup of The Day",
 										"description": "See server for the soup of the day.",
-										"price": "Cup $3.95 or Bowl $4.95"
+										"price": "Cup $3.99 or Bowl $4.99"
 									}
 								],
 								"images": [],

@@ -23,27 +23,27 @@
 									{
 										"title": "Bonjour",
 										"price": "",
-										"description": "Our signature french toast. Short(2) $5.99 Full(3) $7.99"
+										"description": "Our signature french toast. Short(2) $5.99 Full(3) $8.99"
 									},
 									{
-										"title": "Le Scali",
+										"title": "Scali French Toast",
 										"price": "",
 										"description": "Our signature french toast with Scali bread. Short(2) $4.99 Full(3) $6.99"
 									},
 									{
 										"title": "Le Petit Pain Grille",
-										"price": "$9.99",
-										"description": "Topped with roasted coconut, fresh diced pineapple and melted mascarpone cheese."
+										"price": "$10.29",
+										"description": "Topped with roasted coconut, fresh diced pineapple and yogurt."
 									},
 									{
 										"title": "Paris",
-										"price": "$9.99",
-										"description": "Topped with melted mascarpone cheese, roasted pears and house made caramel sauce."
+										"price": "$10.29",
+										"description": "Topped with melted mascarpone cheese, blueberries, strawberries and caramel sauce."
 									},
 									{
 										"title": "La Tour Eiffel ",
-										"price": "$9.99",
-										"description": "Topped with Nutella, bananas, strawberries topped with melted mascarpone cheese."
+										"price": "$10.29",
+										"description": "Topped with Nutella, bananas, strawberries and yogurt."
 									}
 								],
 								"images": [
@@ -83,31 +83,26 @@
 										"description": "Choose any one meat to finish your sandwich. Choose bacon, sausage, turkey, or ham. Substitute smoked salmon for $2.50 more."
 									},
 									{
-										"title": "The Empire",
-										"price": "$7.99",
-										"description": "Two eggs omelet style, melted swiss cheese, asparagus, zucchini, and bacon on a brioche bun."
-									},
-									{
 										"title": "Signature Sandwich",
-										"price": "$8.99",
+										"price": "$9.99",
 										"shared": true,
 										"description": "Apple wood smoked bacon, egg homemade corned beef hash, melted cheddar cheese and crispy home fries all piled high on a brioche bun."
 									},
 									{
-										"title": "Burrito",
-										"price": "$8.99",
-										"description": "Sausage, scrambled eggs, black beans, salsa, sour cream, guacamole and melted cheddar cheese in a wheat wrap."
+										"title": "The Breakfast Burrito",
+										"price": "$9.99",
+										"description": "Sausage, scrambled eggs, black beans, salsa, guacamole and melted cheddar cheese in a wrap."
 									},
 									{
 										"title": "The Lox",
-										"price": "$8.99",
+										"price": "$9.99",
 										"description": "Bagel, egg, fresh tomato, sliced red onion, smoked salmon, cream cheese spread, and capers.",
 										"shared": true
 									},
 									{
-										"title": "Bruschetta (v)",
+										"title": "The Monte Cristo",
 										"price": "$8.99",
-										"description": "Egg, avocado, balsamic glaze, sliced tomatoes, extra virgen olive oil, garlic aioli and fresh basil on a marble rye."
+										"description": "French toasted style, virginia ham, two eggs any style and melted swiss cheese."
 									}
 								],
 								"images": [
@@ -155,19 +150,24 @@
 								"meals": [
 									{
 										"title": "Belgian Waffle",
-										"price": "$6.99",
+										"price": "$7.99",
 										"description": "Served with maple syrup and butter. Add fruit to your waffle $1.25 each. (Banana, strawberry, blueberry, roasted coconut, pecans, chocolate chips, pineapple and nutella)."
 									},
 									{
 										"title": "Chicken & Waffle",
-										"price": "$9.99",
+										"price": "$10.99",
 										"description": "Crispy fried chicken wings served on a belgian waffle.",
 										"special": true
 									},
 									{
 										"title": "Huevos Rancheros",
-										"price": "$10.95",
+										"price": "$10.99",
 										"description": "Two eggs any style topped w/onions, peppers, melted  cheddar cheese. With black beans, sausa, sour cream, guacamole and tortillas on the side."
+                  },
+                  {
+										"title": "The Carnegie",
+										"price": "$9.99",
+										"description": "Three scrambled eggs with pastrami topped with pepperjack cheese, home fries, and toast."
 									},
 									{
 										"title": "‘Loaded’ Home Fries",
@@ -212,17 +212,17 @@
 									{
 										"title": "The Grand Slam!",
 										"special": true,
-										"price": "$9.99",
+										"price": "$10.99",
 										"description": "Our best special offer! 3 eggs any style, 2 bacon strips, 2 sausage with a choice of 2 slices of french toast or 2 pancakes, home fries or tossed salad and a cup of coffee only. No Substitution."
 									},
 									{
 										"title": "Hungry Man",
-										"price": "$6.49",
+										"price": "$7.99",
 										"description": "Two farm fresh eggs any style, served with house toast and home fries or tossed salad."
 									},
 									{
 										"title": "Truck Guy",
-										"price": "$7.90",
+										"price": "$8.99",
 										"description": "Two eggs any style choose bacon, signature sausage or ham, served with house toast and home fries or tossed salad."
 									}
 								],
@@ -263,7 +263,7 @@
 									},
 									{
 										"title": "Yogurt Parfait",
-										"price": "$5.79"
+										"price": "$5.99"
 									},
 									{
 										"title": "Vermont Maple Syrup",
