@@ -7,7 +7,7 @@
 						{
 							"category": {
 								"title": "Omelet",
-								"description": "All omelets are made with three farm fresh eggs and served with a choice of toast and hand-cut home fries or tossed salad. Substitute home fries for fruit salad $1.50 Egg whites are available for an additional of $2.00\nBread options: Whole Wheat, Scali, Rye. Gluten-free add $2.00, English muffin, Bagel $0.59",
+								"description": "All omelets are made with three farm fresh eggs and served with a choice of toast and hand-cut home fries or tossed salad. Substitute home fries for fruit salad $1.50. Egg whites are available for an additional $2.00\nBread options: Whole Wheat, Scali, Rye. Gluten-free add $2.00, English muffin, Bagel $0.59",
 								"stations": [
 									{"letter": "A",
 										"color": "blue"
@@ -85,6 +85,11 @@
 										"title": "Western Omelet",
 										"price": "$9.99",
 										"description": "Bell peppers, onions, ham, American cheese."
+                  },
+                  {
+										"title": "Alaska Omelet",
+										"price": "$11.99",
+										"description": "smoked salmon, cream cheese, diced tomatoes and capers."
 									},
 									{
 										"title": "Build Your Own Omelette",
@@ -218,7 +223,7 @@
 									{
 										"title": "The New Yorker Potato Pancakes (Latkes)",
 										"price": "Full (4) $8.99 - Short (3) $6.99",
-										"description": "Crispy shredded potato pancakes with a bit of onion and spice. Served with  sour cream and applesauce."
+										"description": "Crispy shredded potato pancakes with a bit of onion and spice. Served with  sour cream and apple sauce."
 									}
 								],
 								"images": [

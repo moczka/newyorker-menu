@@ -7,7 +7,7 @@
 						{
 							"category": {
 								"title": "Cold Sandwhiches",
-								"description": "All Sandwiches are served with a choice of house made chips and pickles. Substitute house made chips for fries $2.00 or sweet potato fries for $2.50 or onion rings for $2.50",
+								"description": "All Sandwiches are served with house made chips, pickles and our signature sauce. Substitute house made chips for fries $2.00 or sweet potato fries for $2.50 or onion rings for $2.50",
 								"stations": [
 									{"letter": "A",
 										"color": "red"
@@ -26,25 +26,25 @@
 										"description": "House roasted turkey, bacon, avocado, mojo mustard on a brioche bun."
 									},
 									{
-										"title": "Triple Decker Ham & Cheese",
+										"title": "Ham & Cheese Triple Decker",
 										"price": "$9.99",
-										"description": "Our Triple decker sandwich made with ham, cheese, apple wood-smoked bacon, mayo, lettuce and tomatoes on a marble rye bread."
+										"description": "Our Triple decker sandwich is made with ham, cheese, apple wood-smoked bacon, mayo, lettuce and tomatoes on a scali bread."
                   },
                   {
 										"title": "Avocado Turkey Club",
 										"price": "$10.99",
-										"description": "Our Triple decker sandwich made with turkey, fresh avocado, apple wood-smoked bacon, mayo, lettuce and tomatoes on a marble rye bread."
+										"description": "Our Triple decker sandwich made with turkey, fresh avocado, apple wood-smoked bacon, mayo, lettuce and tomatoes on a scali bread."
 									},
 									{
-										"title": "Triple Decker Turkey Club",
-										"price": "$9.99",
-										"description": "Our triple decker Sandwich made with House made roasted turkey, sliced tomatoes, lettuce, apple wood-smoked bacon and mayo served on a marble rye bread."
+										"title": "New Yorker Triple Decker",
+										"price": "$10.99",
+										"description": "Our triple decker Sandwich made with House made, sliced apple, roasted turkey, virginia ham, sliced tomatoes, lettuce, apple wood-smoked bacon and mayo served on a scali bread."
 									}
 								],
 								"images": [
 									{
-										"src": "assets/raster/union_club.png",
-										"className": "meal-image-two"
+										"src": "assets/raster/so_cal_sandwich.png",
+										"className": "meal-image-one"
 									}
 
 								],
@@ -58,8 +58,8 @@
 						},
 						{
 							"category": {
-								"title": "Wraps &amp; Burgers",
-								"description": "All wraps and burgers are served with a choice of house made chips or coleslaw and pickles. Choice of one dipping sauce. Substitute house made chips for fries $2.00 or sweet potato fries for $2.50 or onion rings for $2.50",
+								"title": "Signature Wraps",
+								"description": "All wraps are served with house made chips, pickles and our signature sauce. Substitute house made chips for fries $2.00 or sweet potato fries for $2.50 or onion rings for $2.50",
 								"stations": [
 									{"letter": "L",
 										"color": "grey"
@@ -81,7 +81,7 @@
 									{
 										"title": "California Wrap",
 										"price": "$9.99",
-										"description": "Roasted turkey, bacon, blue cheese, sweet potato fries, avocado, romaine letuce and tomatoes."
+										"description": "Roasted turkey, bacon, honey mustard, sweet potato fries, avocado, romaine letuce and tomatoes."
 									},
 									{
 										"title": "Buffalo Chicken Wrap",
@@ -93,7 +93,33 @@
 										"title": "Greek Wrap",
 										"price": "$9.99",
 										"description": "Grilled chicken, feta, cucumbers, olives, lettuce, tomato and onion with Greek dressing."
+									}
+								],
+								"images": [],
+								"note": {},
+								"position": {
+									"row": 2,
+									"col": 1,
+									"full": false
+								}
+							}
+            },
+            {
+							"category": {
+								"title": "Burgers",
+								"description": "All burgers are served with house made chips and pickles. Substitute house made chips for fries $2.00 or sweet potato fries for $2.50 or onion rings for $2.50",
+								"stations": [
+									{"letter": "1",
+										"color": "green"
 									},
+									{"letter": "K",
+										"color": "blue"
+									},
+									{"letter": "A",
+										"color": "yellow"
+									}
+								],
+								"meals": [
 									{
 										"title": "Classic Hamburger",
 										"price": "$8.99",
@@ -103,29 +129,23 @@
 									{
 										"title": "Heart Attack Burger",
 										"price": "$11.99",
-										"description": "½ lb Burger fried egg apple wood-smoked bacon, melted cheddar cheese, corned beef hash, lettuce and tomatoes."
-									},
-									{
-										"title": "Bacon Cheese Burger Club",
-										"price": "$10.99",
-										"shared": true,
-										"description": "Triple decker bacon cheese burger club, lettuce, tomatoes, mayo on a marble rye."
+                    "description": "½ lb Burger fried egg apple wood-smoked bacon, melted cheddar cheese, corned beef hash, lettuce and tomatoes."
+                  },
+                  {
+										"title": "Cheese Burger",
+										"price": "$9.99",
+                    "description": "Hamburger patty served on brioche bread with lettuce, onions and tomato with melted America cheese.",
+                    "shared": true
 									},
 									{
 										"title": "The Rodeo Burger",
 										"price": "$10.99",
-										"description": "½ lb topped with melted cheddar cheese, onions rings, bacon and BBQ sauce."
-									},
-									{
-										"title": "Cheese Burger",
-										"price": "$9.99",
-										"description": "Hamburger patty served on brioche bread with lettuce, onions and tomato with melted America cheese.",
-										"shared": true
-									},
-									{
+                    "description": "½ lb topped with melted cheddar cheese, onions rings, bacon and BBQ sauce."
+                  },
+                  {
 										"title": "Bacon Cheese Burger",
 										"price": "$10.99",
-										"description": "Hamburger patty served with lettuce, tomato, onions, bacon and melted American cheese."
+                    "description": "Hamburger patty served with lettuce, tomato, onions, bacon and melted American cheese."
 									}
 								],
 								"images": [],
@@ -174,15 +194,15 @@
 										"description": "Shaved steak, green peppers, onions, mashrooms, melted America cheese on sub bread."
                   },
                   {
-										"title": "The Yorker Melt",
+										"title": "The Yorker Melt Pastrami",
 										"price": "$9.99",
-										"description": "Hot pastrami with melted swiss cheese and mustard on brioche roll."
+                    "description": "Hot pastrami with melted swiss cheese and mustard on brioche roll.",
+                    "shared": true
 									},
 									{
 										"title": "Melted Tuna",
 										"price": "$9.99",
-										"description": "Chunk white tuna, tomato, Swiss cheese, pressed on house rustic.*",
-										"shared": true
+										"description": "Chunk white tuna, tomato, Swiss cheese, pressed on scali bread."
 									},
 									{
 										"title": "Pastrami Reuben",
@@ -191,15 +211,14 @@
 										"shared": true
 									},
 									{
-										"title": "Grilled Cheese",
-										"price": 6.99,
-										"description": "Made on a scali bread with melted America cheese."
+										"title": "Fried Crispy Chicken Sandwich",
+										"price": 9.99,
+										"description": "Fried chicken on a brioche roll with lettuce and tomatoes. Served with house made chips and our signature sauce."
 									},
 									{
-										"title": "BLT",
-										"price": 6.99,
-										"shared": true,
-										"description": "apple wood smoked Bacon, romaine lettuce, tomato and mayo on a scali bread."
+										"title": "Grilled Chicken Sandwich",
+										"price": 9.99,
+										"description": "Grilled chicken on a brioche roll with lettuce and tomatoes. Served with house made chips and our signature sauce."
 									}
 								],
 								"images": [
@@ -235,13 +254,12 @@
 									{
 										"title": "Garden Salad",
 										"price": "$7.99",
-										"description": "Organic greens, cucumbers, tomatoes, avocado, red onions, balsamic dressing."
+                    "description": "Organic greens, cucumbers, tomatoes, avocado, red onions, balsamic dressing."
 									},
 									{
 										"title": "Caesar Salad",
 										"price": "$7.99",
-										"description": "Chopped romaine lettuce, parmesan cheese, croutons tossed in creamy Caesar dressing.",
-										"shared": true
+										"description": "Chopped romaine lettuce, parmesan cheese, croutons tossed in creamy Caesar dressing."
 									},
 									{
 										"title": "Cobb salad",
@@ -252,11 +270,15 @@
 									{
 										"title": "Greek Salad",
 										"price": "$8.99",
-										"description": "Chopped‎ romaine lettuce topped with feta cheese, black olives, tomatoes, onion and a touch of oregano. Served with creamy Greek dressing.",
-										"shared": true
+										"description": "Chopped‎ romaine lettuce topped with feta cheese, black olives, tomatoes, onion and a touch of oregano. Served with creamy Greek dressing."
 									}
 								],
-								"images": [],
+								"images": [
+                  {
+                    "src": "assets/raster/harvest_salad.png",
+                    "className": "meal-image-one"
+                  }
+                ],
 								"note": {},
 								"position": {
 									"row": 2,

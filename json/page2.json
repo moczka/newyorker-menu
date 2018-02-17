@@ -7,7 +7,7 @@
 						{
 							"category": {
 								"title": "French Toast",
-								"description": "Sliced Texas bread dipped in our homemade egg batter, grilled to perfection. Served with maple syrup and butter. Substitute gluten-free bread ($2.00).",
+								"description": "Sliced Texas bread dipped in our homemade egg batter, grilled to perfection. Served with maple syrup and butter. Substitute for gluten-free bread ($2.00).",
 								"stations": [
 									{"letter": "N",
 										"color": "yellow"
@@ -32,17 +32,17 @@
 									},
 									{
 										"title": "Le Petit Pain Grille",
-										"price": "$10.29",
+										"price": "$10.99",
 										"description": "Topped with roasted coconut, fresh diced pineapple and yogurt."
 									},
 									{
 										"title": "Paris",
-										"price": "$10.29",
+										"price": "$10.99",
 										"description": "Topped with melted mascarpone cheese, blueberries, strawberries and caramel sauce."
 									},
 									{
 										"title": "La Tour Eiffel ",
-										"price": "$10.29",
+										"price": "$10.99",
 										"description": "Topped with Nutella, bananas, strawberries and yogurt."
 									}
 								],
@@ -107,7 +107,7 @@
 								],
 								"images": [
 									{
-										"src": "assets/raster/bruchetta.png",
+										"src": "assets/raster/signature-sandwich.png",
 										"className": "meal-image-two"
 									},
 									{
@@ -176,7 +176,7 @@
 									},
 									{
 										"title": "Flat Iron Steak",
-										"price": "$10.99",
+										"price": "$11.99",
 										"description": "6oz flat iron steak, 3 eggs any style, home fries or tossed salad served with choice of toast."
 									},
 									{
