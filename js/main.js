@@ -50,7 +50,7 @@ window.onload = function(){
 
           if(target.innerHTML === "Next"){
 
-            currentPage = (currentPage += 1) % pagesJSON.length;
+            currentPage = (currentPage + 1) % pagesJSON.length;
             json_data = $.get(pagesJSON[currentPage]);
             json_data.then(function(){
               data = json_data.responseJSON;
