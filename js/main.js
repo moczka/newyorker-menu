@@ -70,7 +70,7 @@ window.onload = function(){
               console.log(data);
             });
             updateActivePage(currentPage);
-          }else{
+          }else if(target.innerHTML === "Print"){
             window.print();
           }
 

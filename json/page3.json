@@ -107,7 +107,7 @@
             {
 							"category": {
 								"title": "Burgers",
-								"description": "All burgers are served with house made chips and pickles. Substitute house made chips for fries $2.00 or sweet potato fries for $2.50 or onion rings for $2.50",
+								"description": "All burgers are served with house made chips and pickles and signature sauce . Substitute house made chips for fries $2.00 or sweet potato fries for $2.50 or onion rings for $2.50",
 								"stations": [
 									{"letter": "1",
 										"color": "green"
@@ -183,10 +183,10 @@
 										"description": "Seasoned pulled pork, Virginia ham, Swiss, Dill pickles, mojo mustard on a pressed baguette."
 									},
 									{
-										"title": "Carolina Pork",
+										"title": "BBQ Pork",
 										"price": "$9.99",
 										"shared": true,
-										"description": "Smoked pulled pork, bbq sauce, coleslaw on a brioche bun."
+										"description": "Smoked pulled pork, bbq sauce on a brioche bun."
 									},
 									{
 										"title": "Steak Bomb",
