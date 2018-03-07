@@ -54,7 +54,7 @@
                   {
 										"title": "BLT",
 										"price": "$7.99",
-										"description": "Made with apple smoked bacon, mayo, romaine lettuce, sliced tomatoes on a scarli bread. Served with house made chips and our signature sauce."
+										"description": "Made with apple smoked bacon, mayo, romaine lettuce, sliced tomatoes on a scali bread. Served with house made chips and our signature sauce."
 									}
 								],
 								"images": [],
@@ -88,15 +88,18 @@
                     "description": "Served with marinara sauce."
 									},
 									{
-										"title": "Hand Cut French fries",
+                    "title": "Hand Cut French fries",
+                    "description": "Served with chipotle aioli.",
                     "price": "$4.50"
 									},
 									{
-										"title": "Sweet Potato Fries",
+                    "title": "Sweet Potato Fries",
+                    "description": "Served with honey mustard.",
                     "price": "$4.99"
 									},
 									{
-										"title": "Onion Rings",
+                    "title": "Beer Batter Onion Rings",
+                    "description": "Served with spice ketchup.",
                     "price": "$4.99"									
                   },
 									{
@@ -227,7 +230,7 @@
 								"meals": [
 									{
 										"title": "Juice",
-										"price": "$2.60(M) - 3.25(L)",
+										"price": "$2.99 (L)",
 										"description": "Orange, apple, cranberry, pineapple, tomato juice."
 									},
 									{
@@ -240,7 +243,7 @@
 									},
 									{
 										"title": "Hot Tea",
-										"price": "$2.45"
+										"price": "$2.99"
 									},
 									{
 										"title": "Fountain Drinks",

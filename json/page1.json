@@ -74,17 +74,17 @@
 									{
 										"title": "Brooklyn",
 										"price": "$9.99",
-										"description": "Pepper, onions, avocado, pepper jack cheese and topped with salsa."
+										"description": "bell Pepper, onions, avocado,melted pepper jack cheese and topped with  fresh salsa."
 									},
 									{
 										"title": "Central Park",
 										"price": "$9.99",
-										"description": "Broccoli, pepper, tomato, onion, spinach, asparagus, and Swiss cheese."
+										"description": "Broccoli,  bell pepper, diced tomato, onion, spinach and melted  Swiss cheese."
 									},
 									{
 										"title": "Western Omelet",
 										"price": "$9.99",
-										"description": "Bell peppers, onions, ham, American cheese."
+										"description": "Bell peppers, onions,virginia ham and melted American cheese."
                   },
                   {
 										"title": "Alaska Omelet",
@@ -99,7 +99,7 @@
 										"options": [
 										{
 											"title": "Choose Veg ($0.99)",
-											"description": "Tomato, Mushrooms, Asparagus, Broccoli, Spinach, Onions and Peppers"
+											"description": "Tomato, Mushrooms, Asparagus, Broccoli, Spinach, Onions and  bell Peppers"
 										},
 										{
 											"title": "Choose Cheese ($1.25)",
@@ -222,7 +222,7 @@
 									{
 										"title": "South Beach",
 										"price": "$10.99",
-										"description": " blueberries, melted mascarpone cheese, topped with caramel sauce and yogurt."
+										"description": " blueberries, melted mascarpone cheese, topped with caramel sauce ."
 									},
 									{
 										"title": "The New Yorker Potato Pancakes (Latkes)",

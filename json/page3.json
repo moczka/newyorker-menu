@@ -28,7 +28,7 @@
 									{
 										"title": "Ham & Cheese Triple Decker",
 										"price": "$9.99",
-										"description": "Our Triple decker sandwich is made with ham, cheese, apple wood-smoked bacon, mayo, lettuce and tomatoes on a scali bread."
+										"description": "Our Triple decker sandwich is made with virginia ham, american cheese, apple wood-smoked bacon, mayo, lettuce and tomatoes on a scali bread."
                   },
                   {
 										"title": "Avocado Turkey Club",
@@ -37,7 +37,7 @@
 									},
 									{
 										"title": "New Yorker Triple Decker",
-										"price": "$10.99",
+										"price": "$11.99",
 										"description": "Our triple decker Sandwich made with House made, sliced apple, roasted turkey, virginia ham, sliced tomatoes, lettuce, apple wood-smoked bacon and mayo served on a scali bread."
 									}
 								],
@@ -81,7 +81,7 @@
 									{
 										"title": "California Wrap",
 										"price": "$9.99",
-										"description": "Roasted turkey, bacon, honey mustard, sweet potato fries, avocado, romaine letuce and tomatoes."
+										"description": "crispy chicken tenders, bacon, honey mustard, avocado, romaine letuce and tomatoes."
 									},
 									{
 										"title": "Buffalo Chicken Wrap",
@@ -92,7 +92,7 @@
 									{
 										"title": "Greek Wrap",
 										"price": "$9.99",
-										"description": "Grilled chicken, feta, cucumbers, olives, lettuce, tomato and onion with Greek dressing."
+										"description": "Grilled chicken, feta cheese, cucumbers, olives, lettuce, tomato and onion with Greek dressing."
 									}
 								],
 								"images": [],
@@ -202,12 +202,12 @@
 									{
 										"title": "Melted Tuna",
 										"price": "$9.99",
-										"description": "Chunk white tuna, tomato, Swiss cheese, pressed on scali bread."
+										"description": "Chunk white tuna, tomato,melted Swiss cheese grillee on scali bread."
 									},
 									{
 										"title": "Pastrami Reuben",
 										"price": "$9.99",
-										"description": "Shaved pastrami, Swiss cheese, sauerkraut, thousand island dressing, pressed on rye.",
+										"description": "Shaved pastrami, Swiss cheese, sauerkraut, thousand island dressing grilled on rye.",
 										"shared": true
 									},
 									{

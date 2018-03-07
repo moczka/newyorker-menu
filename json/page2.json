@@ -7,7 +7,7 @@
 						{
 							"category": {
 								"title": "French Toast",
-								"description": "Sliced Texas bread dipped in our homemade egg batter, grilled to perfection. Served with maple syrup and butter. Substitute for gluten-free bread ($2.00).",
+								"description": "Sliced Texas bread dipped in our homemade egg batter, grilled to perfection. Served with  syrup and butter. Substitute for gluten-free bread ($2.00).",
 								"stations": [
 									{"letter": "N",
 										"color": "yellow"
@@ -43,7 +43,7 @@
 									{
 										"title": "La Tour Eiffel ",
 										"price": "$10.99",
-										"description": "Topped with Nutella, bananas, strawberries and yogurt."
+										"description": "Topped with Nutella, bananas, strawberries ."
 									}
 								],
 								"images": [
@@ -96,7 +96,7 @@
 									{
 										"title": "The Lox",
 										"price": "$9.99",
-										"description": "Bagel, egg, fresh tomato, sliced red onion, smoked salmon, cream cheese spread, and capers.",
+										"description": "Bagel, fried egg, fresh tomato, sliced red onion, smoked salmon, cream cheese spread, and capers.",
 										"shared": true
 									},
 									{
@@ -155,29 +155,29 @@
 									},
 									{
 										"title": "Chicken & Waffle",
-										"price": "$11.99",
+										"price": "$10.99",
 										"description": "Crispy fried chicken wings served on a belgian waffle.",
 										"special": true
 									},
 									{
 										"title": "Huevos Rancheros",
-										"price": "$10.99",
-										"description": "Two eggs any style topped w/onions, peppers, melted  cheddar cheese. With black beans, sausa, sour cream, guacamole and tortillas on the side."
+										"price": "$11.99",
+										"description": "Two eggs any style topped w/onions, bell peppers, melted  cheddar cheese. With black beans, sausa, sour cream, guacamole and tortillas on the side."
                   },
                   {
-										"title": "The Carnegie",
+										"title": "The Studio",
 										"price": "$9.99",
 										"description": "Three scrambled eggs with pastrami topped with pepperjack cheese, home fries, and toast."
 									},
 									{
 										"title": "‘Loaded’ Home Fries",
-										"price": "$11.99",
+										"price": "$10.99",
 										"description": "Home fries tossed with mushrooms, sausage, diced tomatoes, peppers, onions and spinach with melted cheddar cheese topped with two eggs any style and a lemon zest hollandaise sauce."
 									},
 									{
 										"title": "Flat Iron Steak",
 										"price": "$11.99",
-										"description": "6oz flat iron steak, 3 eggs any style, home fries or tossed salad served with choice of toast."
+										"description": "6oz flat iron steak, three eggs any style, home fries or tossed salad served with choice of toast."
 									},
 									{
 										"title": "The Lox Platter",
@@ -258,8 +258,8 @@
 										"price": "$4.29"
 									},
 									{
-										"title": "Fresh Fruit Cup",
-										"price": "$3.99"
+										"title": "Fresh Fruit Bowl",
+										"price": "$4.50"
 									},
 									{
 										"title": "Yogurt Parfait bowl",
@@ -288,7 +288,7 @@
 									},
 									{
 										"title": "Bagel W/ Cream Cheese",
-										"price": "$3.35"
+										"price": "$3.50"
 									},
 									{
 										"title": "Corned Beef Hash",
