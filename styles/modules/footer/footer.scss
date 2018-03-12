@@ -1,0 +1,25 @@
+.footer {
+  &-skyline {
+    width: 100%;
+    position: relative;
+    > img{
+      display: block;
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+  }
+  &-warning{
+    max-width: 960px;
+    position: absolute;
+    padding: 5px;
+    border: 2px solid #BF390B;
+    color: #000;
+    bottom: 5px;
+    left: 25px;
+    > h5{
+      font-size: 1.0em;
+      text-transform: uppercase;
+    }
+  }
+}

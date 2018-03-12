@@ -1,0 +1,126 @@
+.meal {
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    color: #BF390B;
+    &.hidden {
+      display: none;
+    }
+  }
+  &-title{
+    text-align: left;
+    font-family: 'Kumar One', cursive;
+    color: inherit;
+    font-size: 1.5em;
+    padding: 0;
+  }
+  &-price{
+    text-align: right;
+    letter-spacing: 1.5;
+    color: inherit;
+    font-size: 1.4em;
+    color: #BF390B;
+    font-weight: bolder;
+  }
+  &-description {
+    text-indent: 5px;
+    font-size: 1.8em;
+    line-height: 95%;
+    clear: left;
+  }
+  &-custom{
+    padding: 3px 0px;
+    > li > h3{
+      color: #BF390B;
+      font-size: 1.1em;
+    }
+    > li {
+      float: left;
+      padding: 0px 5px;
+    }
+  }
+  &-image {
+    padding: 3px;
+    width: 50%;
+    > img{
+      display: block;
+      border: 1px solid #BF390B;
+      width: 95%;
+    }
+    + li{
+      width: 50%;
+    }
+    &-two {
+      +li+li {
+        width: 50%;
+      }
+    }
+    &-three {
+      +li+li, +li+li+li {
+        width: 50%;
+      }
+    }
+    &-full {
+      +li+li, +li+li+li, +li+li+li+li, li+li+li+li+li, li+li+li+li+li+li {
+        width: 50%;
+      }
+    }
+    &--loading {
+      background: #fff url(../../../assets/gif/ajax-loader.gif) no-repeat center center fixed;
+    }
+  }
+  &--isShared {
+    clear: left;
+    padding: 0px 5px;
+    width: 50%;
+    + li {
+      padding: 0px 5px;
+      width: 50%;
+    }
+  }
+  &--isSpecial {
+    position: relative;
+    &::after{
+      position: absolute;
+      right: -50px;
+      top: -5px;
+      content: "\2605 \2605";
+      font-size: 22px;
+      display: inline-block;
+      color: #f4e842;
+    }
+  }
+  @media (max-width: 576px) {
+     /* Arrange price and title float in smaller screens. */
+    &-price {
+      float: left;
+    }
+    &-title{
+      display: block;
+      width: 100%;
+    }
+    &--isShared {
+      clear: none;
+      padding: 0;
+      width: 100%;
+      + li {
+        padding: 0;
+        width: 100%;
+      }
+    }
+    /* resets image size */
+    .meal-image-one +li, .meal-image-one + li + li{
+      width: 100%;
+    }
+    .meal-image-two + li+li, .meal-image-two +li{
+      width: 100%;
+    }
+    .meal-image-full +li+li, .meal-image-full +li, .meal-image-full+li+li+li, .meal-image-full+li+li+li+li+li+li{
+      width: 100%;
+    }
+    /* sets appropriate width of following meals */
+    .meal-image-one + li, .meal-image-two + li, .meal-image-full +li{
+      width: 50%;
+    }
+  }
+}

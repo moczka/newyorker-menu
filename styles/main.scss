@@ -1,1 +1,10 @@
 @import 'global_utilities';
+@import 'colors/_global_colors';
+@import 'resets';
+@import 'layout';
+// Import modules
+@import 'modules/banner/top-banner';
+@import 'modules/category/category';
+@import 'modules/meal/meal';
+@import 'modules/footer/footer';
+@import 'modules/navigator/controller';

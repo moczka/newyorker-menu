@@ -1,5 +1,3 @@
-/* FIX HACKS! */
-
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -13,3 +11,8 @@
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 /* close commented backslash hack */
+
+.hidden{
+  display: !important none;
+  visibility: none;
+}

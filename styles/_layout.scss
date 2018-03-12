@@ -1,0 +1,76 @@
+/*
+---- LAYOUT STYLES
+*/
+
+.main-section{
+    background: linear-gradient(#D8E6EC, #8DC6FF);
+  }
+  
+  .l-fl{
+    float:left;
+  }
+  
+  .container{
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+  }
+  .row{
+    padding: 5px;
+    position:relative;
+    z-index: 1;
+  }
+  .col-md-2{
+    float: left;
+    width: 50%;
+  }
+  .l-subway-frame{
+    padding: 15px;
+    border-bottom: 5px solid #cc3300;
+    border-left: 5px solid #3F72AF;
+    border-bottom-left-radius: 25px;
+  }
+  
+  .linebreak{
+    padding: 2px 0;
+    border-bottom: 3px solid #000;
+  }
+  
+  .edit{
+    display:inline-block;;
+    padding:0;
+    margin:0;
+    background: transparent;
+    max-width: 80px;
+  }
+
+  /* IPAD SIZE */
+@media only screen and (max-width: 767px){
+
+    /* make everything take up the entire width of the viewport, all meals */
+    .col-md-2{
+      float: none;
+      width: 100%;
+    }
+
+}
+
+// @TODO: Move each breakpoint to its corresponding component 
+@media print{
+    /* sets main container to fit the entire tabloid size*/
+  .main-section{
+    height: 1480px;
+  }
+  /*move up skyline to make everything fit */
+  .footer-skyline {
+    position: absolute;
+    bottom: 0px;
+  }
+  .footer-skyline > img{
+    max-width: 100%;
+  }
+  /*hide nav bar */
+  .page-nav{
+    display: none;
+  }
+}

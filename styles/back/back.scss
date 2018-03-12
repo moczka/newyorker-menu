@@ -1,0 +1,24 @@
+.back {
+  &-cover{
+    max-width: 900px;
+    margin: 0px auto;
+    position: relative;
+    padding: 50px 0px;
+    @media print{
+      max-width: 900px;
+      margin: 0px auto;
+      position: relative;
+      top: 150px;
+    }
+  }
+}
+// @TODO: Verify it belongs to the back
+
+.american-flag{
+  width: 90%;
+  height: auto;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+}

@@ -4,13 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Kumar+One" rel="stylesheet">
-  <link rel="stylesheet" href="styles/pages.css" type="text/css" />
-  <link rel="stylesheet" href="styles/modules/banner/top-banner.css" type="text/css" />
-  <link rel="stylesheet" href="styles/modules/category/category.css" type="text/css" />
-  <link rel="stylesheet" href="styles/modules/meal/meal.css" type="text/css" />
-  <link rel="stylesheet" href="styles/modules/footer/footer.css" type="text/css" />
-  <link rel="stylesheet" href="styles/modules/navigator/controller.css" type="text/css"  />
-  <link rel="stylesheet" href="styles/print.css" type="text/css"/>
+  <link rel="stylesheet" href="styles/main.css" type="text/css"/>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="js/main.js"></script>
@@ -94,10 +88,10 @@
   </script>
   <script id="mealTemplate" type="text/template">
 
-        <li class="<%= (meal.shared)? 'meal-is-shared' : '' %>">
+        <li class="<%= (meal.shared)? 'meal--isShared' : '' %>">
             <div class="meal">
               <header class="meal-header clearfix">
-                <h3 class="meal-title <%= meal.special? 'meal-special' : '' %>"><%= meal.title %></h3>
+                <h3 class="meal-title <%= meal.special? 'meal--isSpecial' : '' %>"><%= meal.title %></h3>
                 <span class="meal-price"><%= meal.price %></span>
               </header>
               <div class="meal-header hidden">
@@ -105,7 +99,7 @@
                 <input type="text" class="meal-price edit" value="<%= meal.price %>">
               </div>
               <% if(meal.description){ %>
-                  <p><%= meal.description %></p>
+                  <p class="meal-description"><%= meal.description %></p>
               <% } %>
               <% if(meal.custom){ %>
                 <ul class="meal-custom clearfix">
