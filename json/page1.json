@@ -33,6 +33,7 @@
 									{
 										"title": "The Carnegie",
 										"price": "$9.99",
+										"shared": true,
 										"description": "Filled with house made corned beef hash and melted cheddar cheese."
 									},
 									{
