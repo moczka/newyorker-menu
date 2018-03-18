@@ -68,7 +68,7 @@
             },
             {
 							"category": {
-								"title": "Sides",
+								"title": "New Yorker Sides",
 								"description": "",
 								"stations": [
 									{"letter": "C",
@@ -83,7 +83,7 @@
 								],
 								"meals": [
 									{
-										"title": "Eggplant Fries",
+										"title": "Parmesan Eggplant Fries",
 										"price": "$7.99",
                     "description": "Served with marinara sauce."
 									},

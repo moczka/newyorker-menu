@@ -21,7 +21,7 @@
 								],
 								"meals": [
 									{
-										"title": "Bonjour",
+										"title": "Bonjour ",
 										"price": "",
 										"description": "Our signature french toast. Short(2) $5.99 Full(3) $8.99"
 									},
@@ -38,7 +38,7 @@
 									{
 										"title": "Paris",
 										"price": "$10.99",
-										"description": "Topped with melted mascarpone cheese, blueberries, strawberries and caramel sauce."
+										"description": " oatmeal french toast with bananas and strawberries topped with caramel sauce and yogurt."
 									},
 									{
 										"title": "La Tour Eiffel ",
@@ -161,7 +161,7 @@
 									},
 									{
 										"title": "Huevos Rancheros",
-										"price": "$11.99",
+										"price": "$10.99",
 										"description": "Two eggs any style topped w/onions, bell peppers, melted  cheddar cheese. With black beans, sausa, sour cream, guacamole and tortillas on the side."
                   },
                   {

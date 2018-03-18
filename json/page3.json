@@ -106,7 +106,7 @@
             },
             {
 							"category": {
-								"title": "Burgers",
+								"title": " signature Burgers",
 								"description": "All burgers are served with house made chips and pickles and signature sauce . Substitute house made chips for fries $2.00 or sweet potato fries for $2.50 or onion rings for $2.50",
 								"stations": [
 									{"letter": "1",
@@ -123,29 +123,29 @@
 									{
 										"title": "Classic Hamburger",
 										"price": "$8.99",
-										"description": "Hamburger patty served on brioche bread with lettuce, onions and tomato.",
+										"description": "Hamburger patty served on brioche bun with lettuce, onions and tomato.",
 										"shared": true
 									},
 									{
 										"title": "Heart Attack Burger",
 										"price": "$11.99",
-                    "description": "½ lb Burger fried egg apple wood-smoked bacon, melted cheddar cheese, corned beef hash, lettuce and tomatoes."
+                    "description": "½ lb Burger fried egg apple wood-smoked bacon, melted cheddar cheese, corned beef hash, lettuce and tomatoes on a brioche bun ."
                   },
                   {
 										"title": "Cheese Burger",
 										"price": "$9.99",
-                    "description": "Hamburger patty served on brioche bread with lettuce, onions and tomato with melted America cheese.",
+                    "description": "Hamburger patty served on brioche bun with lettuce, onions and tomato with melted America cheese.",
                     "shared": true
 									},
 									{
 										"title": "The Rodeo Burger",
 										"price": "$10.99",
-                    "description": "½ lb topped with melted cheddar cheese, onions rings, bacon and BBQ sauce."
+                    "description": "½ lb topped with melted cheddar cheese, onions rings, bacon and BBQ sauce on a brioche bun."
                   },
                   {
 										"title": "Bacon Cheese Burger",
 										"price": "$10.99",
-                    "description": "Hamburger patty served with lettuce, tomato, onions, bacon and melted American cheese."
+                    "description": "Hamburger patty served with lettuce, tomato, onions, bacon and melted American cheese on a brioche bun ."
 									}
 								],
 								"images": [],
@@ -194,31 +194,31 @@
 										"description": "Shaved steak, green peppers, onions, mashrooms, melted America cheese on sub bread."
                   },
                   {
-										"title": "The Yorker Melt Pastrami",
+										"title": " Yorker Hot Pastrami",
 										"price": "$9.99",
-                    "description": "Hot pastrami with melted swiss cheese and mustard on brioche roll.",
+                    "description": "Hot pastrami with melted swiss cheese and mustard on brioche bun.",
                     "shared": true
 									},
 									{
 										"title": "Melted Tuna",
 										"price": "$9.99",
-										"description": "Chunk white tuna, tomato,melted Swiss cheese grillee on scali bread."
+										"description": " white tuna,  sliced tomatoes, melted Swiss cheese, grilled on a scali bread."
 									},
 									{
 										"title": "Pastrami Reuben",
 										"price": "$9.99",
-										"description": "Shaved pastrami, Swiss cheese, sauerkraut, thousand island dressing grilled on rye.",
+										"description": "Shaved pastrami, Swiss cheese, sauerkraut, thousand island dressing grilled on a rye.",
 										"shared": true
 									},
 									{
 										"title": "Fried Crispy Chicken Sandwich",
 										"price": 9.99,
-										"description": "Fried chicken on a brioche roll with lettuce and tomatoes. Served with house made chips and our signature sauce."
+										"description": "Fried chicken on a brioche bun with lettuce and tomatoes. Served with house made chips and our signature sauce."
 									},
 									{
 										"title": "Grilled Chicken Sandwich",
 										"price": 9.99,
-										"description": "Grilled chicken on a brioche roll with lettuce and tomatoes. Served with house made chips and our signature sauce."
+										"description": "Grilled chicken on a brioche bun with lettuce and tomatoes. Served with house made chips and our signature sauce."
 									}
 								],
 								"images": [
