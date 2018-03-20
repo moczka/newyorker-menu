@@ -15,7 +15,6 @@
     font-family: Arial, Helvetica, sans-serif;
     color: #d83600;
     text-align: left;
-    color: inherit;
     font-size: $text-size--title;
     padding: 0;
   }
@@ -25,7 +24,6 @@
     padding-left: 10px;
     text-align: right;
     letter-spacing: 1.5;
-    color: inherit;
     font-size: $text-size--base;
     color: #d83600;
     font-weight: bolder;
@@ -36,14 +34,10 @@
     clear: left;
   }
   &-custom{
-    padding: 3px 0px;
-    > li > h3{
-      color: #BF390B;
-      font-size: 1.1em;
-    }
+    display: flex;
+    justify-content: center;
     > li {
-      float: left;
-      padding: 0px 5px;
+      padding: 3px 2px;
     }
   }
   &-image {

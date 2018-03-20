@@ -103,9 +103,9 @@
               <% if(meal.custom){ %>
                 <ul class="meal-custom clearfix">
                   <% _.each(meal.options, function(option){ %>
-                      <li style="width: <%= (100/meal.options.length)+'%'%>">
-                          <h3 class="meal-title"><%= option.title %></h3>
-                          <p><%= option.description %></p>
+                      <li>
+                          <h4 class="meal-title"><%= option.title %></h3>
+                          <p class="meal-description"><%= option.description %></p>
                       </li>
                   <% }); %>
                 </ul>
