@@ -33,6 +33,7 @@
                   {
 										"title": "Avocado Turkey Club",
 										"price": "$10.99",
+										"shared": true,
 										"description": "Our Triple decker sandwich made with turkey, fresh avocado, apple wood-smoked bacon, mayo, lettuce and tomatoes on a scali bread."
 									},
 									{

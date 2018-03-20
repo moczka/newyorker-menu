@@ -16,7 +16,7 @@
     color: #d83600;
     text-align: left;
     color: inherit;
-    font-size: 20px;
+    font-size: $text-size--title;
     padding: 0;
   }
   &-price{
@@ -26,13 +26,13 @@
     text-align: right;
     letter-spacing: 1.5;
     color: inherit;
-    font-size: 16px;
+    font-size: $text-size--base;
     color: #d83600;
     font-weight: bolder;
   }
   &-description {
     font-weight: normal;
-    font-size: 18px;
+    font-size: $text-size--base;
     clear: left;
   }
   &-custom{

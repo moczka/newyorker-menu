@@ -84,6 +84,7 @@
 									},
 									{
 										"title": "Western Omelet",
+										"shared": true,
 										"price": "$9.99",
 										"description": "Bell peppers, onions,virginia ham and melted American cheese."
                   },
@@ -227,6 +228,7 @@
 									},
 									{
 										"title": "The New Yorker Potato Pancakes (Latkes)",
+										"shared": true,
 										"price": "Full (4) $8.99 - Short (3) $6.99",
 										"description": "Crispy shredded potato pancakes with a bit of onion and spice. Served with  sour cream and apple sauce."
                   },

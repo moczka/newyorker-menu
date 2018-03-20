@@ -59,7 +59,7 @@
 @media print{
     /* sets main container to fit the entire tabloid size*/
   .main-section{
-    height: 1480px;
+    height: calc(100vw * 1.65);
   }
   /*move up skyline to make everything fit */
   .footer-skyline {

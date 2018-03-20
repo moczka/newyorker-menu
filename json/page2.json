@@ -38,6 +38,7 @@
 									{
 										"title": "Paris",
 										"price": "$10.99",
+										"shared": true,
 										"description": " oatmeal french toast with bananas and strawberries topped with caramel sauce and yogurt."
 									},
 									{
@@ -125,8 +126,7 @@
 						}
 					]
 				}
-			],
-			"className": "l-subway-frame"
+			]
 		},
 		{
 			"cols": [
@@ -160,8 +160,14 @@
 										"special": true
 									},
 									{
+										"title": "The Lox Platter",
+										"price": "$11.99",
+										"description": "Smoked salmon, bagel with cream cheese, sliced tomatoes, red sliced onions, capers, and organic greens."
+									},
+									{
 										"title": "Huevos Rancheros",
 										"price": "$10.99",
+										"shared": true,
 										"description": "Two eggs any style topped w/onions, bell peppers, melted  cheddar cheese. With black beans, sausa, sour cream, guacamole and tortillas on the side."
                   },
                   {
@@ -172,24 +178,20 @@
 									{
 										"title": "‘Loaded’ Home Fries",
 										"price": "$10.99",
+										"shared": true,
 										"description": "Home fries tossed with mushrooms, sausage, diced tomatoes, peppers, onions and spinach with melted cheddar cheese topped with two eggs any style and a lemon zest hollandaise sauce."
 									},
 									{
 										"title": "Flat Iron Steak",
 										"price": "$11.99",
 										"description": "6oz flat iron steak, three eggs any style, home fries or tossed salad served with choice of toast."
-									},
-									{
-										"title": "The Lox Platter",
-										"price": "$11.99",
-										"description": "Smoked salmon, bagel with cream cheese, sliced tomatoes, red sliced onions, capers, and organic greens."
 									}
 								],
 								"images": [
 
 									{
 										"src": "assets/raster/strawberry_waffle.png",
-										"className": "meal-image-two"
+										"className": "meal-image-three"
 									}
 								],
 								"note": {},
@@ -218,6 +220,7 @@
 									{
 										"title": "Hungry Man",
 										"price": "$7.99",
+										"shared": true,
 										"description": "Two farm fresh eggs any style, served with house toast and home fries or tossed salad."
 									},
 									{
