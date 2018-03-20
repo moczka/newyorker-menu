@@ -3,6 +3,8 @@
 */
 
 .main-section{
+    position: relative;
+    height: calc(100vw * 1.54);
     background: linear-gradient(#D8E6EC, #8DC6FF);
   }
   
@@ -57,18 +59,6 @@
 
 // @TODO: Move each breakpoint to its corresponding component 
 @media print{
-    /* sets main container to fit the entire tabloid size*/
-  .main-section{
-    height: calc(100vw * 1.65);
-  }
-  /*move up skyline to make everything fit */
-  .footer-skyline {
-    position: absolute;
-    bottom: 0px;
-  }
-  .footer-skyline > img{
-    max-width: 100%;
-  }
   /*hide nav bar */
   .page-nav{
     display: none;

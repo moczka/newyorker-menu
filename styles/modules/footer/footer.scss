@@ -1,7 +1,9 @@
 .footer {
   &-skyline {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
     width: 100%;
-    position: relative;
     > img{
       display: block;
       width: 100%;
@@ -10,17 +12,33 @@
     }
   }
   &-warning{
-    max-width: 960px;
     position: absolute;
-    padding: 5px;
-    border: 2px solid #BF390B;
-    color: #fff;
-    bottom: 5px;
-    left: 25px;
+    width: 900px;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: $text-family--base;
+    font-size: $text-size--title;
     font-weight: bold;
+    padding: 5px;
+    border: 2px solid #d83600;
+    background: rgba(255,255,255,0.5);
+    color: #d83600;
+    bottom: 5px;
     > h5{
       font-size: 1.0em;
       text-transform: uppercase;
+    }
+  }
+  @media print {
+    /*move up skyline to make everything fit */
+    &-skyline {
+      position: absolute;
+      left: 0px;
+      bottom: 0px;
+    }
+    &-skyline > img{
+      max-width: 100%;
     }
   }
 }
