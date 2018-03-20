@@ -60,78 +60,7 @@
 									"full": false
 								}
 							}
-						}
-					]
-				},
-				{
-					"categories": [
-						{
-							"category": {
-								"title": "Breakfast Sandwiches",
-								"description": "All breakfast sandwiches are served with homefries.",
-								"stations": [
-									{"letter": "S",
-										"color": "green"
-									},
-									{"letter": "7",
-										"color": "purple"
-									}
-								],
-								"meals": [
-									{
-										"title": "Egg and Cheese Sandwich",
-										"price": "$6.39",
-										"description": "Choose any one meat to finish your sandwich. Choose bacon, sausage, turkey, or ham. Substitute smoked salmon for $2.50 more."
-									},
-									{
-										"title": "Signature Sandwich",
-										"price": "$9.29",
-										"shared": true,
-										"description": "Apple wood smoked bacon, egg homemade corned beef hash, melted cheddar cheese and crispy home fries all piled high on a brioche bun."
-									},
-									{
-										"title": "The Breakfast Burrito",
-										"price": "$8.99",
-										"description": "Sausage, scrambled eggs, black beans, salsa, guacamole and melted cheddar cheese in a wrap."
-									},
-									{
-										"title": "The Lox",
-										"price": "$9.99",
-										"description": "Bagel, fried egg, fresh tomato, sliced red onion, smoked salmon, cream cheese spread, and capers.",
-										"shared": true
-									},
-									{
-										"title": "The Monte Cristo",
-										"price": "$8.99",
-										"description": "French toasted style, virginia ham, two eggs any style and melted swiss cheese."
-									}
-								],
-								"images": [
-									{
-										"src": "assets/raster/signature-sandwich.png",
-										"className": "meal-image-two"
-									},
-									{
-										"src": "assets/raster/signature_sandwhich.png",
-										"className": "meal-image-two"
-									}
-								],
-								"note": {},
-								"position": {
-									"row": 1,
-									"col": 2,
-									"full": false
-								}
-							}
-						}
-					]
-				}
-			]
-		},
-		{
-			"cols": [
-				{
-					"categories": [
+						},
 						{
 							"category": {
 								"title": "Breakfast++",
@@ -206,6 +135,65 @@
 				},
 				{
 					"categories": [
+						{
+							"category": {
+								"title": "Breakfast Sandwiches",
+								"description": "All breakfast sandwiches are served with homefries.",
+								"stations": [
+									{"letter": "S",
+										"color": "green"
+									},
+									{"letter": "7",
+										"color": "purple"
+									}
+								],
+								"meals": [
+									{
+										"title": "Egg and Cheese Sandwich",
+										"price": "$6.39",
+										"description": "Choose any one meat to finish your sandwich. Choose bacon, sausage, turkey, or ham. Substitute smoked salmon for $2.50 more."
+									},
+									{
+										"title": "Signature Sandwich",
+										"price": "$9.29",
+										"shared": true,
+										"description": "Apple wood smoked bacon, egg homemade corned beef hash, melted cheddar cheese and crispy home fries all piled high on a brioche bun."
+									},
+									{
+										"title": "The Breakfast Burrito",
+										"price": "$8.99",
+										"description": "Sausage, scrambled eggs, black beans, salsa, guacamole and melted cheddar cheese in a wrap."
+									},
+									{
+										"title": "The Lox",
+										"price": "$9.99",
+										"description": "Bagel, fried egg, fresh tomato, sliced red onion, smoked salmon, cream cheese spread, and capers.",
+										"shared": true
+									},
+									{
+										"title": "The Monte Cristo",
+										"price": "$8.99",
+										"description": "French toasted style, virginia ham, two eggs any style and melted swiss cheese."
+									}
+								],
+								"images": [
+									{
+										"src": "assets/raster/signature-sandwich.png",
+										"className": "meal-image-two"
+									},
+									{
+										"src": "assets/raster/signature_sandwhich.png",
+										"className": "meal-image-two"
+									}
+								],
+								"note": {},
+								"position": {
+									"row": 1,
+									"col": 2,
+									"full": false
+								}
+							}
+						},
 						{
 							"category": {
 								"title": "",
