@@ -7,7 +7,7 @@
 						{
 							"category": {
 								"title": "Omelet",
-								"description": "Substitute fruit $2.00, gluten free bread $2.00, egg white $2. All omelettes are served with home fries or tossed salad and house toast.",
+								"description": "Substitute fruit $2.00, gluten free bread $2.00, avocado $2.00, egg white $2. All omelettes are served with home fries or tossed salad and house toast.",
 								"stations": [
 									{"letter": "A",
 										"color": "blue"
@@ -218,12 +218,12 @@
 								"meals": [
 									{
 										"title": "Butter Milk",
-										"price": "$8.99 (Full)",
+										"price": "$6.99 (Full)",
 										"description": "A delicious full stack of butter milk pancakes. Short stack of two for $5.99 or a single for $2.99"
 									},
 									{
 										"title": "South Beach",
-										"price": "$10.99",
+										"price": "$9.99",
 										"description": " blueberries, melted mascarpone cheese, topped with caramel sauce ."
 									},
 									{

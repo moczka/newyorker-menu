@@ -38,7 +38,7 @@
 									{
 										"title": "Chicken Quesadilla",
 										"price": "$10.99",
-										"description": "Served with sour cream, salsa and guacuamole."
+										"description": " sauted peppers and onions, Served with sour cream, salsa and guacuamole."
                   },
                   {
 										"title": "Cheese Quesadilla",
@@ -104,7 +104,7 @@
                   },
 									{
 										"title": "House Made Chips",
-                    "price": "$3.50"
+                    "price": "$3.99  "
 									}
 								],
 								"images": [],
@@ -157,7 +157,7 @@
 								],
 								"images": [
 									{
-										"src": "assets/raster/soup_and_sandwich.png",
+										"src": "assets/raster/soup-and-sandwich.jpg",
 										"className": "meal-image-full"
 									}
 								],
@@ -294,7 +294,7 @@
 								"meals": [
 									{
 										"title": "Boston Cream Pie",
-										"price": "$4.99",
+										"price": "$5.99",
 										"description": "Our famous Boston cream pie served with drizzled nutella and strawberry."
 									},
 									{

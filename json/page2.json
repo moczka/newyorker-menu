@@ -21,9 +21,9 @@
 								],
 								"meals": [
 									{
-										"title": "Bonjour ",
+										"title": "Famous french toast ",
 										"price": "",
-										"description": "Our signature french toast. Short(2) $5.99 Full(3) $8.99"
+										"description": "Our signature french toast. Short(2) $5.99 Full(3) $7.99"
 									},
 									{
 										"title": "Scali French Toast",
@@ -31,25 +31,25 @@
 										"description": "Our signature french toast with Scali bread. Short(2) $4.99 Full(3) $6.99"
 									},
 									{
-										"title": "Le Petit Grille",
-										"price": "$10.99",
+										"title": "Tropical french toast",
+										"price": "$9.99",
 										"description": "Topped with roasted coconut, fresh diced pineapple and yogurt."
 									},
 									{
-										"title": "Paris",
+										"title": "The studio french toast",
 										"price": "$10.99",
 										"shared": true,
-										"description": " oatmeal french toast with bananas and strawberries topped with caramel sauce and yogurt."
+										"description": " Granola french toast with bananas and strawberries topped with caramel sauce and yogurt."
 									},
 									{
-										"title": "La Tour Eiffel ",
+										"title": "Nutella french toast ",
 										"price": "$10.99",
 										"description": "Topped with Nutella, bananas, strawberries ."
 									}
 								],
 								"images": [
 									{
-										"src": "assets/raster/french_toast1.png",
+										"src": "assets/raster/french-toast.jpg",
 										"className": "meal-image-two"
 									}
 								],
@@ -80,7 +80,7 @@
 									{
 										"title": "Belgian Waffle",
 										"price": "$7.99",
-										"description": "Served with maple syrup and butter. Add fruit to your waffle $1.50 each. (Banana, strawberry, blueberry, roasted coconut, pecans, chocolate chips, pineapple and nutella)."
+										"description": "Served with  syrup and butter. Add fruit to your waffle $1.50 each. (Banana, strawberry, blueberry, roasted coconut, pecans, chocolate chips, pineapple or nutella)."
 									},
 									{
 										"title": "Chicken & Waffle",
@@ -100,7 +100,7 @@
 										"description": "Two eggs any style topped w/onions, bell peppers, melted  cheddar cheese. With black beans, sausa, sour cream, guacamole and tortillas on the side."
                   },
                   {
-										"title": "The Studio",
+										"title": "Pastrami and egg",
 										"price": "$9.99",
 										"description": "Three scrambled eggs with pastrami topped with pepperjack cheese, home fries, and toast."
 									},
@@ -113,14 +113,14 @@
 									{
 										"title": "Flat Iron Steak",
 										"price": "$11.99",
-										"description": "6oz flat iron steak, three eggs any style, home fries or tossed salad served with choice of toast."
+										"description": "6oz flat iron steak, three eggs any style, home fries or tossed salad and toast."
 									}
 								],
 								"images": [
 
 									{
-										"src": "assets/raster/strawberry_waffle.png",
-										"className": "meal-image-three"
+										"src": "assets/raster/belgium-waffle.jpg",
+										"className": "meal-image-two"
 									}
 								],
 								"note": {},
@@ -149,9 +149,9 @@
 								],
 								"meals": [
 									{
-										"title": "Egg and Cheese Sandwich",
-										"price": "$6.39",
-										"description": "Choose any one meat to finish your sandwich. Choose bacon, sausage, turkey, or ham. Substitute smoked salmon for $2.50 more."
+										"title": "The Lox",
+										"price": "$9.99",
+										"description": "Bagel, fried egg, fresh tomato, sliced red onion, smoked salmon, cream cheese spread, and capers."
 									},
 									{
 										"title": "Signature Sandwich",
@@ -165,20 +165,20 @@
 										"description": "Sausage, scrambled eggs, black beans, salsa, guacamole and melted cheddar cheese in a wrap."
 									},
 									{
-										"title": "The Lox",
-										"price": "$9.99",
-										"description": "Bagel, fried egg, fresh tomato, sliced red onion, smoked salmon, cream cheese spread, and capers.",
+										"title": "Egg and Cheese Sandwich",
+										"price": "$6.29",
+										"description": "Choose any one meat to finish your sandwich. Choose bacon, sausage, turkey, or ham. Substitute smoked salmon for $2.50 more.",
 										"shared": true
 									},
 									{
 										"title": "The Monte Cristo",
 										"price": "$8.99",
-										"description": "French toasted style, virginia ham, two eggs any style and melted swiss cheese."
+										"description": "French toasted style, virginia ham, coleslaw, two eggs and melted swiss cheese."
 									}
 								],
 								"images": [
 									{
-										"src": "assets/raster/signature-sandwich.png",
+										"src": "assets/raster/salmon-sandwich.jpg",
 										"className": "meal-image-two"
 									},
 									{
@@ -202,12 +202,12 @@
 									{
 										"title": "The Grand Slam!",
 										"special": true,
-										"price": "$10.99",
-										"description": "Our best special offer! 3 eggs any style, 2 bacon strips, 2 sausage with a choice of 2 slices of french toast or 2 pancakes, home fries or tossed salad and a cup of coffee only. No Substitution."
+										"price": "$9.99",
+										"description": "Our best special offer! 3 eggs any style, 2 bacon strips, 2 sausage with a choice of 2 slices of french toast or 2 pancakes, home fries and a cup of coffee only. No Substitution."
 									},
 									{
 										"title": "Hungry Man",
-										"price": "$7.99",
+										"price": "$6.99",
 										"shared": true,
 										"description": "Two farm fresh eggs any style, served with house toast and home fries or tossed salad."
 									},
@@ -238,15 +238,15 @@
 								"meals": [
 									{
 										"title": "Bacon",
-										"price": "$4.29"
+										"price": "$3.99"
 									},
 									{
 										"title": "Signature Sausage",
-										"price": "$4.29"
+										"price": "$3.99"
 									},
 									{
 										"title": "Ham Steak",
-										"price": "$4.29"
+										"price": "$3.99"
 									},
 									{
 										"title": "Fresh Fruit Bowl",
@@ -295,7 +295,7 @@
 									},
 									{
 										"title": "Gluten Free Bread",
-										"price": "$2.99"
+										"price": "$1.99"
 									}
 								],
 								"images": [],
