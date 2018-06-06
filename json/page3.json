@@ -32,7 +32,7 @@
                   },
                   {
 										"title": "Avocado Turkey Club",
-										"price": "$10.99",
+										"price": "$9.99",
 										"shared": true,
 										"description": "Our Triple decker sandwich made with turkey, fresh avocado, apple wood-smoked bacon, mayo, lettuce and tomatoes on a scali bread."
 									},
@@ -75,7 +75,7 @@
 								"meals": [
 									{
 										"title": "Chicken Caesar Wrap",
-										"price": "$9.99",
+										"price": "$8.99",
 										"shared": true,
 										"description": "Grilled chicken, romaine lettuce, Caesar dressing with parmesan and croutons."
 									},
@@ -86,13 +86,13 @@
 									},
 									{
 										"title": "Buffalo Chicken Wrap",
-										"price": "$9.99",
+										"price": "$8.99",
 										"shared": true,
 										"description": "Buffalo crispy chicken, lettuce, tomato, ranch and crumbled blue cheese."
 									},
 									{
 										"title": "Greek Wrap",
-										"price": "$9.99",
+										"price": "$8.99",
 										"description": "Grilled chicken, feta cheese, cucumbers, olives, lettuce, tomato and onion with Greek dressing."
 									}
 								],
@@ -123,7 +123,7 @@
 								"meals": [
 									{
 										"title": "Classic Hamburger",
-										"price": "$8.99",
+										"price": "$7.99",
 										"description": "Hamburger patty served on brioche bun with lettuce, onions and tomato.",
 										"shared": true
 									},
@@ -134,7 +134,7 @@
                   },
                   {
 										"title": "Cheese Burger",
-										"price": "$9.99",
+										"price": "$8.99",
                     "description": "Hamburger patty served on brioche bun with lettuce, onions and tomato with melted America cheese.",
                     "shared": true
 									},
@@ -145,7 +145,8 @@
                   },
                   {
 										"title": "Bacon Cheese Burger",
-										"price": "$10.99",
+										"shared": true,
+										"price": "$9.99",
                     "description": "Hamburger patty served with lettuce, tomato, onions, bacon and melted American cheese on a brioche bun ."
 									}
 								],
@@ -200,7 +201,7 @@
 										"description": "Shaved steak, green peppers, onions, mashrooms, melted America cheese on sub bread."
                   },
                   {
-										"title": " Yorker Hot Pastrami",
+										"title": "  Hot Pastrami sandwich ",
 										"price": "$9.99",
                     "description": "Hot pastrami with melted swiss cheese and mustard on brioche bun.",
                     "shared": true
@@ -224,8 +225,8 @@
 								],
 								"images": [
 									{
-										"src": "assets/raster/cubano_hot.png",
-										"className": "meal-image-two"
+										"src": "assets/raster/cubano-sandwich.jpg",
+										"className": "meal-image-one"
 									}
 								],
 								"note": {},
@@ -254,7 +255,7 @@
 								"meals": [
 									{
 										"title": "Garden Salad",
-										"price": "$7.99",
+										"price": "$6.99",
                     "description": "Organic greens, cucumbers, tomatoes, avocado, red onions, balsamic dressing."
 									},
 									{
@@ -277,7 +278,7 @@
 								"images": [
                   {
                     "src": "assets/raster/homemade-caesar-salad-3.jpg",
-                    "className": "meal-image-two"
+                    "className": "meal-image-one"
                   }
                 ],
 								"note": {},

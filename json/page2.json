@@ -33,17 +33,17 @@
 									{
 										"title": "Tropical french toast",
 										"price": "$9.99",
-										"description": "Topped with roasted coconut, fresh diced pineapple and yogurt."
+										"description": "Topped with roasted coconut, fresh diced pineapple and caramel sauce ."
 									},
 									{
 										"title": "The studio french toast",
-										"price": "$10.99",
+										"price": "$9.99",
 										"shared": true,
 										"description": " Granola french toast with bananas and strawberries topped with caramel sauce and yogurt."
 									},
 									{
 										"title": "Nutella french toast ",
-										"price": "$10.99",
+										"price": "$9.99",
 										"description": "Topped with Nutella, bananas, strawberries ."
 									}
 								],
@@ -79,7 +79,7 @@
 								"meals": [
 									{
 										"title": "Belgian Waffle",
-										"price": "$7.99",
+										"price": "$6.99",
 										"description": "Served with  syrup and butter. Add fruit to your waffle $1.50 each. (Banana, strawberry, blueberry, roasted coconut, pecans, chocolate chips, pineapple or nutella)."
 									},
 									{
@@ -150,12 +150,12 @@
 								"meals": [
 									{
 										"title": "The Lox",
-										"price": "$9.99",
+										"price": "$8.99",
 										"description": "Bagel, fried egg, fresh tomato, sliced red onion, smoked salmon, cream cheese spread, and capers."
 									},
 									{
 										"title": "Signature Sandwich",
-										"price": "$9.29",
+										"price": "$8.99",
 										"shared": true,
 										"description": "Apple wood smoked bacon, egg homemade corned beef hash, melted cheddar cheese and crispy home fries all piled high on a brioche bun."
 									},
@@ -207,13 +207,13 @@
 									},
 									{
 										"title": "Hungry Man",
-										"price": "$6.99",
+										"price": "$6.49",
 										"shared": true,
 										"description": "Two farm fresh eggs any style, served with house toast and home fries or tossed salad."
 									},
 									{
 										"title": "Truck Guy",
-										"price": "$8.99",
+										"price": "$7.99",
 										"description": "Two eggs any style choose bacon, signature sausage or ham, served with house toast and home fries or tossed salad."
 									}
 								],

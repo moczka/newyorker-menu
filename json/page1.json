@@ -7,7 +7,7 @@
 						{
 							"category": {
 								"title": "Omelet",
-								"description": "Substitute fruit $2.00, gluten free bread $2.00, avocado $2.00, egg white $2. All omelettes are served with home fries or tossed salad and house toast.",
+								"description": "Substitute fruit $1.50, gluten free bread $2.00, avocado $2.00, egg white $2. All omelettes are served with home fries or tossed salad and house toast.",
 								"stations": [
 									{"letter": "A",
 										"color": "blue"
@@ -38,7 +38,7 @@
 									},
 									{
 										"title": "Manhattan",
-										"price": "$9.99",
+										"price": "$8.99",
 										"description": "Our House-made chili and melted cheddar cheese, topped with sour cream."
 									}
 								],
@@ -74,23 +74,23 @@
 								"meals": [
 									{
 										"title": "Brooklyn",
-										"price": "$9.99",
+										"price": "$8.99",
 										"description": "bell Pepper, onions, avocado,melted pepper jack cheese and topped with  fresh salsa."
 									},
 									{
 										"title": "Central Park",
-										"price": "$9.99",
+										"price": "$8.99",
 										"description": "Broccoli,  bell pepper, diced tomato, onion, spinach and melted  Swiss cheese."
 									},
 									{
 										"title": "Western Omelet",
 										"shared": true,
-										"price": "$9.99",
+										"price": "$8.99",
 										"description": "Bell peppers, onions,virginia ham and melted American cheese."
                   },
                   {
 										"title": "Alaska Omelet",
-										"price": "$11.99",
+										"price": "$10.99",
 										"description": "smoked salmon, cream cheese, diced tomatoes and capers."
 									},
 									{
@@ -104,11 +104,11 @@
 											"description": "Tomato, Mushrooms, Asparagus, Broccoli, Spinach, Onions and  bell Peppers"
 										},
 										{
-											"title": "Choose Cheese ($1.25)",
+											"title": "Choose Cheese ($0.99)",
 											"description": "American, Cheddar, Feta, Swiss, Pepper Jack, Mozarella."
 										},
 										{
-											"title": "Choose Meat ($2)",
+											"title": "Choose Meat ($1.99)",
 											"description": "Bacon, Ham, Sausage, Corn-beef Hash, Turkey, Smoked Salmon, Chicken."
                     }
 										]
@@ -143,7 +143,7 @@
 						{
 							"category": {
 								"title": "Benedict",
-								"description": "All New Yorker Benedict’s are made with farm fresh eggs and served with house made home fries or tossed salad. Substitute home fries for Fruit Salad $2.00",
+								"description": "All New Yorker Benedict’s are made with farm fresh eggs and served with house made home fries or tossed salad. Substitute home fries for Fruit Salad $1.50",
 								"stations": [
 									{"letter": "7",
 										"color": "purple"
@@ -158,7 +158,7 @@
 								"meals": [
 									{
 										"title": "4th Avenue",
-										"price": "$10.99",
+										"price": "$9.99",
 										"description": "Two poached farm fresh eggs served over our toasted English muffin with Smoked Salmon, and our lemon zest hollandaise sauce."
 									},
 									{
@@ -219,7 +219,7 @@
 									{
 										"title": "Butter Milk",
 										"price": "$6.99 (Full)",
-										"description": "A delicious full stack of butter milk pancakes. Short stack of two for $5.99 or a single for $2.99"
+										"description": "A delicious full stack of butter milk pancakes. Short stack of two for $4.99 or a single for $2.99"
 									},
 									{
 										"title": "South Beach",
@@ -229,12 +229,12 @@
 									{
 										"title": "The New Yorker Potato Pancakes (Latkes)",
 										"shared": true,
-										"price": "Full (4) $8.99 - Short (3) $6.99",
+										"price": "Full (4) $7.99 - Short (3) $5.99",
 										"description": "Crispy shredded potato pancakes with a bit of onion and spice. Served with  sour cream and apple sauce."
                   },
                   {
 										"title": "Sweet Potato Pancake",
-										"price": "Full (3) $8.99 - Short (2) $6.99",
+										"price": "Full (3) $7.99 - Short (2) $5.99  - single (1) $3.99" ,
 										"description": "A delicious full stack of sweet potato pancakes, add pecan for $ 1.50 more "
 									}
 								],

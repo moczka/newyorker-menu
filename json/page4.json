@@ -22,7 +22,7 @@
 								"meals": [
 									{
 										"title": "Mozzarella Sticks",
-										"price": "$7.99",
+										"price": "$6.99",
 										"description": "Served with marinara sauce."
 									},
 									{
@@ -33,27 +33,27 @@
 									{
 										"title": "Chicken Tenders w/ Fries",
 										"description": "Served with  honey mustard.",
-                    "price": "$9.99"
+                    "price": "$8.99"
 									},
 									{
 										"title": "Chicken Quesadilla",
-										"price": "$10.99",
+										"price": "$9.99",
 										"description": " sauted peppers and onions, Served with sour cream, salsa and guacuamole."
                   },
                   {
 										"title": "Cheese Quesadilla",
-										"price": "$9.99",
+										"price": "$8.99",
 										"description": "Served with sour cream, salsa and guacuamole."
                   },
                   {
 										"title": "Grilled Cheese",
-										"price": "$7.99",
+										"price": "$6.29",
                     "description": "Melted American Cheese on a scali bread served with house made chips and our signature sauce.",
                     "shared": true
                   },
                   {
 										"title": "BLT",
-										"price": "$7.99",
+										"price": "$6.99",
 										"description": "Made with apple smoked bacon, mayo, romaine lettuce, sliced tomatoes on a scali bread. Served with house made chips and our signature sauce."
 									}
 								],
@@ -90,7 +90,7 @@
 									{
                     "title": "Hand Cut French fries",
                     "description": "Served with chipotle aioli.",
-                    "price": "$4.50"
+                    "price": "$3.99"
 									},
 									{
                     "title": "Sweet Potato Fries",
@@ -104,7 +104,7 @@
                   },
 									{
 										"title": "House Made Chips",
-                    "price": "$3.99  "
+                    "price": "$2.99  "
 									}
 								],
 								"images": [],
@@ -203,6 +203,42 @@
 									"full": false
 								}
 							}
+						},
+						{
+							"category": {
+								"title": "Desserts",
+								"description": "",
+								"stations": [
+									{"letter": "D",
+										"color": "blue"
+									},
+									{"letter": "Q",
+										"color": "yellow"
+									},
+									{"letter": "N",
+										"color": "orange"
+									}
+								],
+								"meals": [
+									{
+										"title": "Boston Cream Pie",
+										"price": "$5.99",
+										"description": "Our famous Boston cream pie served with drizzled nutella and strawberry."
+									},
+									{
+										"title": "New Yorker Brownie Sunday",
+										"price": "$5.99",
+										"description": "Served with a scoop of vanilla ice cream, topped with strawberry, blueberries and drizzled nutella."
+									}
+								],
+								"images": [],
+								"note": {},
+								"position": {
+									"row": 3,
+									"col": 2,
+									"full": false
+								}
+							}
 						}
 					]
 				}
@@ -255,7 +291,7 @@
 									},
 									{
 										"title": "Fresh Brewed Coffee",
-										"price": "$2.45"
+										"price": "$2.25"
 									},
 									{
 										"title": "Milk Shake",
@@ -268,46 +304,6 @@
 								"position": {
 									"row": 3,
 									"col": 1,
-									"full": false
-								}
-							}
-						}
-					]
-				},
-				{
-					"categories": [
-						{
-							"category": {
-								"title": "Desserts",
-								"description": "",
-								"stations": [
-									{"letter": "D",
-										"color": "blue"
-									},
-									{"letter": "Q",
-										"color": "yellow"
-									},
-									{"letter": "N",
-										"color": "orange"
-									}
-								],
-								"meals": [
-									{
-										"title": "Boston Cream Pie",
-										"price": "$5.99",
-										"description": "Our famous Boston cream pie served with drizzled nutella and strawberry."
-									},
-									{
-										"title": "New Yorker Brownie Sunday",
-										"price": "$5.99",
-										"description": "Served with a scoop of vanilla ice cream, topped with strawberry, blueberries and drizzled nutella."
-									}
-								],
-								"images": [],
-								"note": {},
-								"position": {
-									"row": 3,
-									"col": 2,
 									"full": false
 								}
 							}
